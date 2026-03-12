@@ -1,6 +1,6 @@
 # Projecte XXXXXXXXXXXXX
 
->**Autors:** 
+>**Autors:Gurpinder Singh Kaur, Adria Pelegri Sabate** 
 >**Versió: **
 
 ----------
