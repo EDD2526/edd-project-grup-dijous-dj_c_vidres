@@ -743,6 +743,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM1117DT-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1259,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 40.64) (xy 205.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5fcce9-46da-4d92-a6e0-f04ffbc87b1a")
+	)
+	(wire
+		(pts
 			(xy 115.57 41.91) (xy 115.57 48.26)
 		)
 		(stroke
@@ -1406,6 +1540,38 @@
 			(type default)
 		)
 		(uuid "eaa7f888-f471-415e-8a37-25f820935073")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5fa96c-399b-42bd-959d-6405737375b3")
+	)
+	(hierarchical_label "GND_DIGITAL"
+		(shape bidirectional)
+		(at 205.74 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d64153e-e3f1-4ca7-823b-da0b3c609b0f")
+	)
+	(hierarchical_label "GND_PWR"
+		(shape bidirectional)
+		(at 181.61 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25272907-e9a0-430b-9991-664a56854176")
 	)
 	(hierarchical_label "GND_PWR"
 		(shape input)
@@ -2102,6 +2268,74 @@
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/a8709361-50f1-45a9-9990-4a11f8b46576"
 					(reference "J_PWR")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd16b199-0218-4f44-be72-ee736b8a6f6c")
+		(property "Reference" "R2"
+			(at 193.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 193.04 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60806052-56b7-4249-a37f-23ea404d99b2")
+		)
+		(pin "1"
+			(uuid "7b1850a6-9d27-4e4a-8159-e90a59d0a69c")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/a8709361-50f1-45a9-9990-4a11f8b46576"
+					(reference "R2")
 					(unit 1)
 				)
 			)
