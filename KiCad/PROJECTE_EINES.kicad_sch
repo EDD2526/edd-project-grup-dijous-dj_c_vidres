@@ -5,7 +5,7 @@
 	(uuid "347831db-5db9-4aff-ad32-e56fd770e219")
 	(paper "A4")
 	(lib_symbols)
-	(text "BUS CAN"
+	(text "COMUNICACIÓ"
 		(exclude_from_sim no)
 		(at 173.736 36.322 0)
 		(effects

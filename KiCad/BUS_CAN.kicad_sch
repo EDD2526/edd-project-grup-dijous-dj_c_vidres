@@ -974,6 +974,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pin Vref --> Output de Vcc/2"
+		(exclude_from_sim no)
+		(at 84.328 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31b9d532-4db3-445e-a8ab-954394f8fa4a")
+	)
 	(text "Pin Rs --> Resistencia 10k per slope control.\nSlew rate = 15V/us"
 		(exclude_from_sim no)
 		(at 96.52 78.486 0)
@@ -983,6 +993,16 @@
 			)
 		)
 		(uuid "388a85c4-73c2-4566-8259-0e6d775a81e0")
+	)
+	(text "Falta USART\n"
+		(exclude_from_sim no)
+		(at 147.32 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e892c7be-1c2a-4e92-a50f-3ca81347b627")
 	)
 	(junction
 		(at 142.24 69.85)
@@ -1027,14 +1047,6 @@
 	(no_connect
 		(at 162.56 77.47)
 		(uuid "7621f7c2-c8a5-41ff-97bb-3fe01e338ca2")
-	)
-	(no_connect
-		(at 154.94 52.07)
-		(uuid "7cfbc6ca-685b-4291-b306-d1fb1ecf1a9d")
-	)
-	(no_connect
-		(at 154.94 54.61)
-		(uuid "84dba97f-3d46-40ac-a5e0-6d295fc156ae")
 	)
 	(no_connect
 		(at 116.84 67.31)
