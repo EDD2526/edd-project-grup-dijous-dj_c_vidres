@@ -2,9 +2,465 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 347831db-5db9-4aff-ad32-e56fd770e219)
+	(uuid "347831db-5db9-4aff-ad32-e56fd770e219")
 	(paper "A4")
 	(lib_symbols)
+	(text "BUS CAN"
+		(exclude_from_sim no)
+		(at 173.736 36.322 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "27a7d9f7-1d93-43b4-950c-84c9eaa50f0f")
+	)
+	(text "MOTOR FINESTRA"
+		(exclude_from_sim no)
+		(at 108.204 76.2 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "359d5359-9cc1-4c09-bfd8-d791a5653f5e")
+	)
+	(text "POTÈNCIA"
+		(exclude_from_sim no)
+		(at 43.434 34.798 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "3ee74832-bad1-4aeb-8246-63185b8580ca")
+	)
+	(text "SENSOR RFID"
+		(exclude_from_sim no)
+		(at 250.952 35.052 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "437b0845-0a60-4279-a268-d5651f18d8fb")
+	)
+	(text "MOTOR PORTA"
+		(exclude_from_sim no)
+		(at 173.482 77.47 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "4a7297b2-6ebe-4b90-a8c0-705f5c4c1495")
+	)
+	(text "MICROCONTROLADOR\n"
+		(exclude_from_sim no)
+		(at 106.68 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "6d69da21-e04d-4740-b090-dd7521a57861")
+	)
+	(text "INPUTS"
+		(exclude_from_sim no)
+		(at 46.736 75.946 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "80869284-f7af-4fbc-a36e-2e38be9ddecf")
+	)
+	(text "SENSOR DE CORRENT"
+		(exclude_from_sim no)
+		(at 249.936 76.708 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "c39de30a-660f-40f2-83f6-10b7fda7e53b")
+	)
+	(sheet
+		(at 223.52 60.96)
+		(size 52.07 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0aa311db-868d-4102-819d-96f0255ccb92")
+		(property "Sheetname" "SENSOR DE CORRENT"
+			(at 223.52 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSOR_CORRENT.kicad_sch"
+			(at 223.52 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 20.32)
+		(size 59.69 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "119ce145-2c93-4544-b106-e85ec51fdc64")
+		(property "Sheetname" "BUS CAN"
+			(at 144.78 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BUS_CAN.kicad_sch"
+			(at 144.78 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 20.32)
+		(size 48.26 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f039355-d395-4709-b940-eff82ebe0f62")
+		(property "Sheetname" "MICROCONTROLADOR I DEBUG"
+			(at 82.55 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MICROCONTROLADOR_DEBUG.kicad_sch"
+			(at 82.55 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 20.32)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31dcd71e-4130-43cb-a335-13c9e1a3d043")
+		(property "Sheetname" "SENSOR RFID"
+			(at 224.79 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSOR_RFID.kicad_sch"
+			(at 224.79 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 60.96)
+		(size 59.69 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "839c8b34-4c01-48c7-9037-58d60b295fe6")
+		(property "Sheetname" "DRIVER MOTOR PORTA"
+			(at 147.32 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOTOR_PORTA.kicad_sch"
+			(at 147.32 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 60.96)
+		(size 43.18 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85b10b44-f8b7-4b58-879f-bd15e6c8e976")
+		(property "Sheetname" "INPUTS"
+			(at 25.4 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUTS.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 19.05)
+		(size 40.64 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8709361-50f1-45a9-9990-4a11f8b46576")
+		(property "Sheetname" "ETAPA DE POTÈNCIA"
+			(at 25.4 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETAPA_POTENCIA.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_PWR" bidirectional
+			(at 44.45 50.8 270)
+			(uuid "02007749-2dad-44a4-bf24-b59a8085347c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_12V" input
+			(at 25.4 27.94 180)
+			(uuid "a8a83b84-c5b5-4585-9128-df3140610557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 66.04 26.67 0)
+			(uuid "236f5c65-dc36-436e-b62c-04764864cb6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_RAIL" output
+			(at 66.04 31.75 0)
+			(uuid "81de6718-1295-460f-a61d-dd9ad49fd24c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 60.96)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6effc59-48f1-49a7-95ce-6407716902cc")
+		(property "Sheetname" "DRIVER DEL MOTOR FINESTRA"
+			(at 83.82 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOTOR_FINESTRA.kicad_sch"
+			(at 83.82 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
