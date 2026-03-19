@@ -919,6 +919,12 @@
 			(uuid "7f302b20-742f-4017-9628-ad157034fe9d")
 		)
 		(instances
+			(project "SENSOR_CORRENT"
+				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
+					(reference "R_Shunt1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
 					(reference "R_Shunt")
@@ -945,7 +951,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 132.08 38.1 90)
 			(effects
 				(font
@@ -987,6 +993,12 @@
 			(uuid "627c3dab-2af5-455f-a819-af66f5aea122")
 		)
 		(instances
+			(project "SENSOR_CORRENT"
+				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
 					(reference "R1")
@@ -1064,6 +1076,12 @@
 			(uuid "ad10d825-9891-459d-92e0-a390ca7034ea")
 		)
 		(instances
+			(project "SENSOR_CORRENT"
+				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
 					(reference "U2")
@@ -1091,7 +1109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 143.51 57.1499 0)
 			(effects
 				(font
@@ -1134,6 +1152,12 @@
 			(uuid "c3a2d119-a3d0-4845-8ada-00218b20ecb1")
 		)
 		(instances
+			(project "SENSOR_CORRENT"
+				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
 					(reference "C1")
@@ -1142,4 +1166,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
