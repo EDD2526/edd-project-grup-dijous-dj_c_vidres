@@ -743,6 +743,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM1117DT-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1023,6 +1147,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ee9d16-e327-438d-981e-092c9df61e70")
+	)
+	(wire
+		(pts
 			(xy 91.44 34.29) (xy 91.44 36.83)
 		)
 		(stroke
@@ -1110,6 +1244,16 @@
 			(type default)
 		)
 		(uuid "95d312fa-dfbe-4b25-9fa5-0ae5f71bf7cb")
+	)
+	(wire
+		(pts
+			(xy 224.79 35.56) (xy 232.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9783b948-3f23-4b1c-ade0-ec7fa4ea751e")
 	)
 	(wire
 		(pts
@@ -1231,6 +1375,17 @@
 		)
 		(uuid "eaa7f888-f471-415e-8a37-25f820935073")
 	)
+	(hierarchical_label "GND_DIGITAL"
+		(shape input)
+		(at 232.41 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48065405-83a1-4771-846d-3c70d622478c")
+	)
 	(hierarchical_label "GND_PWR"
 		(shape input)
 		(at 110.49 50.8 270)
@@ -1274,6 +1429,17 @@
 			(justify left)
 		)
 		(uuid "984ae5f0-675a-4043-b365-32f4e574fe08")
+	)
+	(hierarchical_label "GND_PWR"
+		(shape input)
+		(at 210.82 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a53bf33b-f850-487b-9162-2bbd5ec5059f")
 	)
 	(hierarchical_label "VBAT_PROT"
 		(shape output)
@@ -1847,6 +2013,74 @@
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/a8709361-50f1-45a9-9990-4a11f8b46576"
 					(reference "J_PWR")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf992f29-d225-46fd-a0e7-66fa373c52b3")
+		(property "Reference" "R2"
+			(at 220.98 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 220.98 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ae15094-89ca-4f21-81f7-3b8d7b436f6a")
+		)
+		(pin "1"
+			(uuid "314a98ad-4d5f-494c-875e-5d735b58c440")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/a8709361-50f1-45a9-9990-4a11f8b46576"
+					(reference "R2")
 					(unit 1)
 				)
 			)
