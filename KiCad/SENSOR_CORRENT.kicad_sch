@@ -5,184 +5,6 @@
 	(uuid "03eea87e-da87-4f21-8136-ad0584e7714c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Current:INA180A1"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "INA180A1"
-				(at 3.81 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "current monitor shunt sensor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INA180A1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA180A1_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -322,26 +144,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_Push_SPDT"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -349,7 +169,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -366,7 +186,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Momentary Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,7 +195,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,153 +204,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Shunt"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt resistor with Kelvin connections"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
+			(symbol "SW_Push_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -541,7 +218,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
+						(xy 0 1.016) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -551,48 +228,59 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name "~"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -608,9 +296,27 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name "~"
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "NO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,258 +335,183 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "normally closed"
+		(exclude_from_sim no)
+		(at 122.682 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0671aaba-4fb4-4fd6-bb6d-fba24d52325c")
+	)
+	(text "common"
+		(exclude_from_sim no)
+		(at 171.45 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "773763b6-7ebc-4bf8-b82d-5c8554aec0a1")
+	)
+	(text "normally open"
+		(exclude_from_sim no)
+		(at 164.846 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab8268f9-01c5-4b8a-9b8b-b1636bfabf3a")
+	)
+	(text "evita soroll"
+		(exclude_from_sim no)
+		(at 161.544 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b58aa6de-8fcc-4a27-ab27-4dbe4321b743")
+	)
 	(junction
-		(at 139.7 41.91)
+		(at 147.32 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eff61d95-1faa-40b0-9d50-9d4e3406a039")
+		(uuid "9f849259-1114-4b37-a03b-2964769a4a0a")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c931c867-2d01-42da-a199-04a8d3266608")
+	)
+	(no_connect
+		(at 132.08 83.82)
+		(uuid "83d3d23c-e6a2-49f8-b0c6-e28bcbb2e11c")
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 128.27 41.91)
+			(xy 142.24 81.28) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bbb042b-83ad-4789-b530-0cc2071c2464")
+		(uuid "020aca28-d15d-4a13-80ff-df1759240390")
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 139.7 52.07)
+			(xy 142.24 87.63) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "703795e5-94a6-48d9-ad6c-b1eb321ffb26")
+		(uuid "440c5d69-4b5f-44f6-8d0a-b52ccbe5ca8c")
 	)
 	(wire
 		(pts
-			(xy 64.77 39.37) (xy 64.77 41.91)
+			(xy 142.24 80.01) (xy 147.32 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a016d7f-6e0c-465b-9ca8-90af9ddfdd8f")
+		(uuid "507a8ee0-b8fd-4b02-8202-06ac1011e091")
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 144.78 41.91)
+			(xy 142.24 86.36) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1140570-85c2-40a4-bd8a-d3005b1a2eee")
+		(uuid "59a04772-84e7-4de7-8053-003ce7f79453")
 	)
 	(wire
 		(pts
-			(xy 40.64 39.37) (xy 64.77 39.37)
+			(xy 147.32 87.63) (xy 152.4 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b455e497-6c10-4bb7-aeee-306070e360df")
+		(uuid "b3f035e0-1527-4a26-ba03-240ec614e5cd")
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 139.7 41.91)
+			(xy 147.32 80.01) (xy 152.4 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3ccce9e-2a2e-4afe-9320-f8f42fae7e35")
+		(uuid "cbd896c9-22a1-4298-ba4c-3dae993c308f")
 	)
-	(wire
-		(pts
-			(xy 64.77 52.07) (xy 64.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f375ef8a-a1f8-43a9-a5ae-5238eb184d04")
-	)
-	(global_label "SHUNT_HIGH"
+	(global_label "GND_DIGITAL"
 		(shape input)
-		(at 67.31 44.45 0)
+		(at 152.4 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0a9547b3-15db-4b20-9327-5de971f39029")
+		(uuid "0d16fa35-c29e-4449-9def-101ca62fb4d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 44.45 0)
+			(at 167.0572 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "SHUNT_LOW"
+	(hierarchical_label "NO"
 		(shape input)
-		(at 67.31 49.53 0)
+		(at 152.4 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4b2fb899-7f38-466d-a76e-df46ab1da9fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHUNT_HIGH"
-		(shape input)
-		(at 102.87 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64d75a1c-f813-413b-82a0-83f19ad23c9e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHUNT_LOW"
-		(shape input)
-		(at 102.87 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0318ecf-ab61-4747-bfe0-99486ab9d743")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "WIN_CURRENT_ADC"
-		(shape input)
-		(at 144.78 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01025fb0-e6e6-4e22-b9ae-5825e5c0fe00")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 139.7 59.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47386fe1-23df-4367-b3a7-9b5c584807ba")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 64.77 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6950387b-7c68-40c4-8a87-a6b513bb691c")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 107.95 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88328921-dc58-40c4-9fe1-5ce1c595cfa0")
-	)
-	(hierarchical_label "VDD_3V3"
-		(shape input)
-		(at 107.95 34.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a921d4c3-fa97-4209-ba28-47fb9367a4ce")
-	)
-	(hierarchical_label "MOTOR_SENSE_IN"
-		(shape input)
-		(at 40.64 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9dbec03-4586-40c5-9885-e86a0c8c11af")
+		(uuid "5d9d86e6-e43d-40c8-9dcd-597bf83e2fad")
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 64.77 46.99 0)
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 137.16 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "765e9af8-c4f4-4a2b-adb3-53dbd6a831b8")
-		(property "Reference" "R_Shunt"
-			(at 62.23 45.7199 0)
+		(uuid "64ad4047-0fae-4928-af54-25943b142e17")
+		(property "Reference" "SW1"
+			(at 137.16 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10m"
-			(at 62.23 48.2599 0)
+		(property "Value" "SS-1GL2-F-D"
+			(at 137.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.992 46.99 90)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 46.99 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,194 +528,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 64.77 46.99 0)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "1ce37294-ba9d-4381-bec6-884add17bcd2")
 		)
 		(pin "1"
-			(uuid "f6db7b15-ad60-403b-b6c5-2091955e367a")
-		)
-		(pin "4"
-			(uuid "ed991752-996a-4199-acf6-cc025d475efc")
+			(uuid "1abfb3e2-9398-4203-90ee-b187ac5e625b")
 		)
 		(pin "3"
-			(uuid "44737fda-52a8-43ce-9ef3-aa360c9c1b5d")
-		)
-		(pin "2"
-			(uuid "7f302b20-742f-4017-9628-ad157034fe9d")
+			(uuid "be561321-543f-4886-8325-01a45a974185")
 		)
 		(instances
-			(project "SENSOR_CORRENT"
-				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
-					(reference "R_Shunt1")
-					(unit 1)
-				)
-			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
-					(reference "R_Shunt")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "833bdd59-5226-498a-b2b5-2d33c5f84415")
-		(property "Reference" "R1"
-			(at 132.08 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 132.08 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 40.132 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93c40d07-ddc3-4018-8841-8320516c74b4")
-		)
-		(pin "2"
-			(uuid "627c3dab-2af5-455f-a819-af66f5aea122")
-		)
-		(instances
-			(project "SENSOR_CORRENT"
-				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA180A1")
-		(at 110.49 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f2c7dde-e9f3-41cc-b254-912734414f45")
-		(property "Reference" "U2"
-			(at 121.92 35.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA180A1"
-			(at 121.92 38.0298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
-			(at 110.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "353ea37f-043e-43ee-9b3e-2ab556551062")
-		)
-		(pin "4"
-			(uuid "63e47609-03e0-4432-ab28-a6eea3f930ad")
-		)
-		(pin "5"
-			(uuid "022e1196-af49-4d63-8aec-1be668403ed6")
-		)
-		(pin "2"
-			(uuid "78afa5e0-6fe8-4617-8a35-725ce06135cc")
-		)
-		(pin "1"
-			(uuid "ad10d825-9891-459d-92e0-a390ca7034ea")
-		)
-		(instances
-			(project "SENSOR_CORRENT"
-				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
-					(reference "U2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1092,16 +557,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 55.88 0)
+		(at 147.32 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbc5ddd7-44b6-494e-810e-3c0393fb59c8")
+		(uuid "df0ac5d4-6c2b-4c71-a938-ce29075125d7")
 		(property "Reference" "C1"
-			(at 143.51 54.6099 0)
+			(at 151.13 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,8 +574,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 143.51 57.1499 0)
+		(property "Value" "100n"
+			(at 151.13 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,8 +583,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.6652 59.69 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 148.2852 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 55.88 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +602,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 55.88 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,18 +611,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5c7241e-61f0-432a-a53c-bae0a7bb525d")
+			(uuid "3e0710b8-e79c-4b24-b3fa-29e24a6ebc19")
 		)
 		(pin "2"
-			(uuid "c3a2d119-a3d0-4845-8ada-00218b20ecb1")
+			(uuid "5a493ce9-f477-4c68-b611-e6d5e24b9a6b")
 		)
 		(instances
-			(project "SENSOR_CORRENT"
-				(path "/03eea87e-da87-4f21-8136-ad0584e7714c"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0aa311db-868d-4102-819d-96f0255ccb92"
 					(reference "C1")

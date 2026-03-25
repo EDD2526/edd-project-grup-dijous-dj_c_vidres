@@ -75,7 +75,7 @@
 		)
 		(uuid "80869284-f7af-4fbc-a36e-2e38be9ddecf")
 	)
-	(text "SENSOR DE CORRENT"
+	(text "SENSOR FINAL \nDE CARRERA"
 		(exclude_from_sim no)
 		(at 249.936 76.708 0)
 		(effects
@@ -119,44 +119,14 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
-			(at 223.52 68.58 180)
-			(uuid "120d85dd-a10e-4155-b9a6-4a964cb37a1a")
+		(pin "NO" input
+			(at 223.52 77.47 180)
+			(uuid "898b5c10-c04b-4bcb-a8d0-f53b2ecd96e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "MOTOR_SENSE_IN" input
-			(at 223.52 85.09 180)
-			(uuid "fbd45f70-9804-4a7f-908c-48c6ac8e9dfd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_3V3" input
-			(at 223.52 81.28 180)
-			(uuid "b1ca42ae-7ca9-4fe1-8dd4-689acda59498")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_CURRENT_ADC" input
-			(at 275.59 69.85 0)
-			(uuid "6a4bf316-e0c9-4b06-959d-9ff7fbd49699")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
