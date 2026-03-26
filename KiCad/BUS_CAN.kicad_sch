@@ -994,6 +994,16 @@
 		)
 		(uuid "4044d0b7-1a87-490f-bd6c-23bf2195005d")
 	)
+	(text "USART"
+		(exclude_from_sim no)
+		(at 165.862 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4e1c995-b041-4857-9f16-3c981428c429")
+	)
 	(junction
 		(at 142.24 77.47)
 		(diameter 0)

@@ -855,7 +855,7 @@
 	)
 	(text "COMUNICACIONS"
 		(exclude_from_sim no)
-		(at 232.664 27.178 0)
+		(at 168.91 36.83 0)
 		(effects
 			(font
 				(size 3 3)
@@ -995,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 83.82) (xy 49.53 87.63)
+			(xy 50.8 97.79) (xy 50.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 83.82) (xy 25.4 87.63)
+			(xy 26.67 97.79) (xy 26.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 87.63) (xy 33.02 87.63)
+			(xy 27.94 101.6) (xy 34.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 49.53 83.82)
+			(xy 49.53 97.79) (xy 50.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 48.26 87.63)
+			(xy 49.53 97.79) (xy 49.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 83.82) (xy 26.67 87.63)
+			(xy 27.94 97.79) (xy 27.94 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 40.64 87.63)
+			(xy 49.53 101.6) (xy 41.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 83.82) (xy 26.67 83.82)
+			(xy 26.67 97.79) (xy 27.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1345,6 +1345,26 @@
 		(uuid "02194441-4f83-4187-aef7-19db7cbab0e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_MOTOR_A"
+		(shape output)
+		(at 26.67 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04592e07-595b-49a1-a7c2-1f25e7a2c5bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,6 +1413,26 @@
 			)
 		)
 	)
+	(global_label "GND_PWR"
+		(shape input)
+		(at 215.9 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e983c96-3cd7-4ef7-8aa4-03cb6b374c00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIN_DIAGB"
 		(shape output)
 		(at 139.7 132.08 0)
@@ -1405,6 +1445,26 @@
 		(uuid "11f4b64a-219a-4629-9c88-8e6401921a84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_MOTOR_A"
+		(shape output)
+		(at 246.38 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "195a328f-09b3-4c14-b5fa-383e303e38c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1515,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 49.53 83.82 0)
+		(at 50.8 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1465,7 +1525,7 @@
 		)
 		(uuid "36cc90fb-95ad-4b13-9cad-1c2dc03532f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3857 83.82 0)
+			(at 57.6557 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,6 +1617,26 @@
 			)
 		)
 	)
+	(global_label "DOOR_MOTOR_B"
+		(shape output)
+		(at 26.67 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d56805a-73e7-40eb-8ff6-a9d4078cae5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 96.52 102.87 270)
@@ -1599,26 +1679,6 @@
 			)
 		)
 	)
-	(global_label "WIN_MOTOR_B"
-		(shape output)
-		(at 139.7 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "575b985e-5ce5-4b67-99f9-571402ed04a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "WIN_PWM"
 		(shape output)
 		(at 187.96 101.6 0)
@@ -1631,26 +1691,6 @@
 		(uuid "58c0c8bd-b651-4380-9ab3-456cbcc0c018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_3V3"
-		(shape output)
-		(at 88.9 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58d9cfe8-661b-4fda-b8ec-06b1ec5c97a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,6 +1751,26 @@
 		(uuid "62f0b4d3-3930-4280-99d1-d31f217775ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.89 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_3V3"
+		(shape output)
+		(at 88.9 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bc78eca-81a2-4bb1-a32e-05b1d41d5a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,6 +1859,26 @@
 			)
 		)
 	)
+	(global_label "WIN_MOTOR_A"
+		(shape output)
+		(at 139.7 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a924146-1655-4752-b816-dcd2afabf5b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT_12V"
 		(shape input)
 		(at 72.39 29.21 180)
@@ -1811,6 +1891,26 @@
 		(uuid "7e38bf18-0a93-445b-824e-d30440f2fe72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_MOTOR_B"
+		(shape output)
+		(at 139.7 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eb6628e-d2db-4662-ae12-40ca94cb211c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,6 +1971,26 @@
 		(uuid "8a6f0a6d-2481-4f28-b40a-404a9be10c38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_PROT"
+		(shape output)
+		(at 186.69 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cb0c95d-3c60-4258-bead-0b16597133c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2061,7 @@
 	)
 	(global_label "GND_PWR"
 		(shape input)
-		(at 25.4 83.82 180)
+		(at 26.67 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1950,7 +2070,7 @@
 		)
 		(uuid "afc874ca-e4c8-45cc-b254-60438b0642fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 83.82 90)
+			(at 26.67 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,26 +2091,6 @@
 		(uuid "b0db6c3e-8d8b-44a5-8e4f-2890b0783156")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIN_MOTOR_A"
-		(shape output)
-		(at 139.7 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b65e6147-6d80-4b7b-884c-924cfe4ff02f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,6 +2131,26 @@
 		(uuid "bb924b60-4dbc-4a16-aaa4-41ffa81c51fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_3V3"
+		(shape output)
+		(at 186.69 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd4b4262-71a6-457c-ab3c-4d099a9b635e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,6 +2339,26 @@
 			)
 		)
 	)
+	(global_label "DOOR_MOTOR_B"
+		(shape output)
+		(at 246.38 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e05a9e08-49f9-475a-97ff-46c4aaaa3e10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIN_INB"
 		(shape output)
 		(at 187.96 99.06 0)
@@ -2261,7 +2401,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 25.4 87.63 0)
+		(at 26.67 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2270,7 +2410,7 @@
 		(fields_autoplaced yes)
 		(uuid "25202d90-5022-4032-b083-31d2dc76c5a5")
 		(property "Reference" "#PWR05"
-			(at 25.4 92.71 0)
+			(at 26.67 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2419,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 25.273 91.44 0)
+			(at 26.543 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 88.9 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 88.9 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 25.4 87.63 0)
+			(at 26.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 87.63 0)
+		(at 50.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2404,7 +2544,7 @@
 		(fields_autoplaced yes)
 		(uuid "598cefd6-7e7a-44c9-ae06-6a1cc9cf96f1")
 		(property "Reference" "#PWR06"
-			(at 49.53 93.98 0)
+			(at 50.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 92.71 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 87.63 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 87.63 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 87.63 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,25 +2810,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 87.63 90)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 21.59 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd16b199-0218-4f44-be72-ee736b8a6f6c")
-		(property "Reference" "R2"
-			(at 36.83 81.28 90)
+		(uuid "cfd06380-d2f6-4797-955a-6caa42680e4a")
+		(property "Reference" "J_MOTOR_DOOR"
+			(at 22.225 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 36.83 83.82 90)
+		(property "Value" "Conn_01x02_Pin"
+			(at 22.225 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 89.408 90)
+			(at 21.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2845,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 87.63 0)
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bb6e701-6dd2-4e7c-b7ba-311c3a58f817")
+		)
+		(pin "1"
+			(uuid "629aee3f-01f8-47ef-82d5-6013d99a24ce")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(reference "J_MOTOR_DOOR")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd16b199-0218-4f44-be72-ee736b8a6f6c")
+		(property "Reference" "R2"
+			(at 38.1 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 38.1 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2922,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 87.63 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,6 +3523,106 @@
 				(justify left top)
 			)
 		)
+		(pin "DOOR_DIAGA" output
+			(at 246.38 127 0)
+			(uuid "f8e584e6-4c60-45c9-af4a-ee05c3efbf2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_DIAGB" output
+			(at 246.38 130.81 0)
+			(uuid "2294ce10-e9bf-41e1-a2c3-8573a570dea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_INA" input
+			(at 186.69 140.97 180)
+			(uuid "bf193074-e3fe-4399-a71b-2a9c5b80ae2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_PWR" passive
+			(at 215.9 152.4 270)
+			(uuid "8d088baa-8204-4f1f-846a-0c42a831fc80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_PROT" input
+			(at 186.69 125.73 180)
+			(uuid "9b93250c-18ae-45fc-8cb8-d319e87d063e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 186.69 128.27 180)
+			(uuid "ddb84d2b-f016-4c17-b858-808fffe71745")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_INB" input
+			(at 186.69 143.51 180)
+			(uuid "8993d545-4cb9-4393-be88-e92e770296d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_PWM" input
+			(at 186.69 146.05 180)
+			(uuid "99924aff-10f3-4ea4-bf67-8b31d998c027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_OUTA" output
+			(at 246.38 143.51 0)
+			(uuid "4b508e51-f099-4462-9504-5b0a3e3162c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_OUTB" output
+			(at 246.38 147.32 0)
+			(uuid "399817e0-ace2-4398-99d0-41603b4025cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
@@ -3561,16 +3869,6 @@
 				(justify left)
 			)
 		)
-		(pin "VDD_3V3" input
-			(at 88.9 133.35 180)
-			(uuid "fb655014-e691-484f-8614-6545a52bfac6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "WIN_CURRENT_ADC" output
 			(at 139.7 125.73 0)
 			(uuid "fabd1371-c1c8-4e1f-9154-e80574b2368b")
@@ -3621,29 +3919,39 @@
 				(justify left)
 			)
 		)
-		(pin "WIN_MOTOR_A" output
-			(at 139.7 143.51 0)
-			(uuid "c254239b-8ffa-478b-935c-776324f51a8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_MOTOR_B" output
-			(at 139.7 146.05 0)
-			(uuid "7c1b2fb0-d1f8-4693-a924-80a9d4488cd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "WIN_PWM" input
 			(at 88.9 148.59 180)
 			(uuid "b26c9693-d7da-4950-ab00-8af293dd3632")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIN_OUTA" output
+			(at 139.7 144.78 0)
+			(uuid "22ae7a89-4451-4f51-84f6-58c4ba0bc9d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_OUTB" output
+			(at 139.7 148.59 0)
+			(uuid "6ce63566-4350-4df4-b772-bfae7561d230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 88.9 127 180)
+			(uuid "37de20d7-2fe7-4694-b29b-1c249b330aa9")
 			(effects
 				(font
 					(size 1.27 1.27)

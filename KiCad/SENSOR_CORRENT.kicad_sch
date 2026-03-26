@@ -345,6 +345,16 @@
 		)
 		(uuid "0671aaba-4fb4-4fd6-bb6d-fba24d52325c")
 	)
+	(text "La footprint no correspon al símbol ja que el sensor no estarà soldat a la PCB."
+		(exclude_from_sim no)
+		(at 136.906 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0696217c-9046-4c91-b95c-d615ebfadd15")
+	)
 	(text "common"
 		(exclude_from_sim no)
 		(at 171.45 80.01 0)
@@ -510,7 +520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical"
 			(at 137.16 83.82 0)
 			(effects
 				(font
