@@ -2335,7 +2335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b29a26e-22ee-4c4f-91f6-8002fe006b56")
-		(property "Reference" "J_MOTOR_WIN"
+		(property "Reference" "J_MOTOR_WIN1"
 			(at 22.225 58.42 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "J_MOTOR_WIN")
+					(reference "J_MOTOR_WIN1")
 					(unit 1)
 				)
 			)

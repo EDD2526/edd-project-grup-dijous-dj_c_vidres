@@ -742,7 +742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78dc5e25-45e4-4df3-800c-c6445a4b9f29")
-		(property "Reference" "SW_UP"
+		(property "Reference" "SW_UP4"
 			(at 186.69 55.88 0)
 			(effects
 				(font
@@ -795,7 +795,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP")
+					(reference "SW_UP4")
 					(unit 1)
 				)
 			)
