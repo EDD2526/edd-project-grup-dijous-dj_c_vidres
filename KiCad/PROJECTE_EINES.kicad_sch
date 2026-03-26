@@ -1759,6 +1759,26 @@
 			)
 		)
 	)
+	(global_label "VDD_3V3"
+		(shape output)
+		(at 88.9 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bc78eca-81a2-4bb1-a32e-05b1d41d5a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIN_LIMIT"
 		(shape output)
 		(at 161.29 106.68 270)
@@ -3927,6 +3947,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 88.9 127 180)
+			(uuid "37de20d7-2fe7-4694-b29b-1c249b330aa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
