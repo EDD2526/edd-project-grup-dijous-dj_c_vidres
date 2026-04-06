@@ -507,32 +507,32 @@
 		)
 	)
 	(junction
-		(at 180.34 63.5)
+		(at 146.05 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "291a1d45-782a-404d-a52d-38d382b3e6ec")
 	)
 	(junction
-		(at 110.49 91.44)
+		(at 146.05 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9795d1c3-67b5-41ee-8f0e-9095c7747c97")
 	)
 	(junction
-		(at 180.34 106.68)
+		(at 146.05 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ada0184c-0d8e-49b1-99a8-4fe453f9fca4")
 	)
 	(junction
-		(at 180.34 85.09)
+		(at 146.05 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c403d7ac-168d-45c4-83b9-538434501565")
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 124.46 91.44)
+			(xy 157.48 49.53) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +542,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 110.49 91.44)
+			(xy 143.51 49.53) (xy 146.05 49.53)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +552,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 170.18 63.5)
+			(xy 128.27 72.39) (xy 135.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 106.68) (xy 181.61 106.68)
+			(xy 146.05 115.57) (xy 147.32 115.57)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +572,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 170.18 85.09)
+			(xy 128.27 93.98) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -582,7 +582,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 195.58 106.68)
+			(xy 157.48 115.57) (xy 161.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +592,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 180.34 85.09)
+			(xy 143.51 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 82.55) (xy 180.34 85.09)
+			(xy 146.05 91.44) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 85.09) (xy 195.58 85.09)
+			(xy 157.48 93.98) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 91.44)
+			(xy 146.05 46.99) (xy 146.05 49.53)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 104.14) (xy 180.34 106.68)
+			(xy 146.05 113.03) (xy 146.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 106.68) (xy 180.34 106.68)
+			(xy 143.51 115.57) (xy 146.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +652,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 170.18 106.68)
+			(xy 128.27 115.57) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 195.58 63.5)
+			(xy 157.48 72.39) (xy 161.29 72.39)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 85.09) (xy 181.61 85.09)
+			(xy 146.05 93.98) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 100.33 91.44)
+			(xy 128.27 49.53) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 180.34 63.5)
+			(xy 143.51 72.39) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 180.34 63.5)
+			(xy 146.05 69.85) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +712,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 111.76 91.44)
+			(xy 146.05 49.53) (xy 147.32 49.53)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 63.5) (xy 181.61 63.5)
+			(xy 146.05 72.39) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +732,7 @@
 	)
 	(hierarchical_label "WIN_BTN_UP"
 		(shape output)
-		(at 180.34 60.96 90)
+		(at 146.05 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -743,7 +743,7 @@
 	)
 	(hierarchical_label "WIN_LIMIT"
 		(shape output)
-		(at 180.34 104.14 90)
+		(at 146.05 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -754,7 +754,7 @@
 	)
 	(hierarchical_label "WIN_BTN_DOWN"
 		(shape output)
-		(at 180.34 82.55 90)
+		(at 146.05 91.44 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -765,7 +765,7 @@
 	)
 	(hierarchical_label "MCLR"
 		(shape output)
-		(at 110.49 88.9 90)
+		(at 146.05 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -776,7 +776,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 63.5 90)
+		(at 139.7 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -784,8 +784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10cfcf55-d540-4a24-b91a-43b856f5bf05")
-		(property "Reference" "R5"
-			(at 173.99 57.15 90)
+		(property "Reference" "R_BTNUP1"
+			(at 139.7 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +793,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 173.99 59.69 90)
+			(at 139.7 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 65.278 90)
+			(at 139.7 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 63.5 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 63.5 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +836,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R5")
+					(reference "R_BTNUP1")
 					(unit 1)
 				)
 			)
@@ -844,7 +844,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 92.71 91.44 0)
+		(at 128.27 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -852,8 +852,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6a7771-c6d9-4503-b2bb-5fdfdc7d29db")
-		(property "Reference" "#PWR020"
-			(at 92.71 95.25 0)
+		(property "Reference" "#PWR022"
+			(at 128.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +862,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 92.71 86.36 0)
+			(at 128.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 91.44 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 91.44 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 91.44 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +902,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -910,7 +910,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 63.5 0)
+		(at 161.29 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -919,7 +919,7 @@
 		(fields_autoplaced yes)
 		(uuid "284e3efc-6298-4d44-aff9-92a1a0114a11")
 		(property "Reference" "#PWR027"
-			(at 195.58 69.85 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +928,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 68.58 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 63.5 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 63.5 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 63.5 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 106.68 0)
+		(at 161.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -984,8 +984,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e66e38-d2ce-4a90-8604-ca7ae09cb646")
-		(property "Reference" "#PWR025"
-			(at 195.58 113.03 0)
+		(property "Reference" "#PWR029"
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 111.76 0)
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 106.68 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 106.68 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 106.68 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1042,16 +1042,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 85.09 90)
+		(at 139.7 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "681a5573-3814-4dc8-8636-35eb15f509a4")
-		(property "Reference" "R6"
-			(at 173.99 78.74 90)
+		(property "Reference" "R_BTNDOWN1"
+			(at 137.414 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1058,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 173.99 81.28 90)
+			(at 139.7 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 86.868 90)
+			(at 139.7 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 85.09 0)
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1084,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 85.09 0)
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1101,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R6")
+					(reference "R_BTNDOWN1")
 					(unit 1)
 				)
 			)
@@ -1110,7 +1109,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 63.5 0)
+		(at 152.4 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1118,8 +1117,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78dc5e25-45e4-4df3-800c-c6445a4b9f29")
-		(property "Reference" "SW_UP4"
-			(at 186.69 55.88 0)
+		(property "Reference" "SW_UP2"
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,8 +1126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 186.69 58.42 0)
+		(property "Value" "SW_WINUP"
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 58.42 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 58.42 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1153,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 63.5 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1170,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP4")
+					(reference "SW_UP2")
 					(unit 1)
 				)
 			)
@@ -1179,7 +1178,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 106.68 90)
+		(at 139.7 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1187,8 +1186,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e68fae6-e702-45de-b7e8-34eabd4b2fe2")
-		(property "Reference" "R7"
-			(at 173.99 100.33 90)
+		(property "Reference" "R_LIMIT1"
+			(at 139.7 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1195,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 173.99 102.87 90)
+			(at 139.7 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 108.458 90)
+			(at 139.7 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 106.68 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1221,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 106.68 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1238,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R7")
+					(reference "R_LIMIT1")
 					(unit 1)
 				)
 			)
@@ -1247,7 +1246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 85.09 0)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1255,8 +1254,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95af0fb9-104e-44ad-88eb-ccc46be7ce9b")
-		(property "Reference" "#PWR026"
-			(at 195.58 91.44 0)
+		(property "Reference" "#PWR028"
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 90.17 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 85.09 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 85.09 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 85.09 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1304,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1313,7 +1312,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 91.44 90)
+		(at 139.7 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1321,8 +1320,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6965539-e946-4c37-b534-417a1eed4012")
-		(property "Reference" "R8"
-			(at 104.14 85.09 90)
+		(property "Reference" "R_MCLR1"
+			(at 139.7 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1329,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 104.14 87.63 90)
+			(at 139.7 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 93.218 90)
+			(at 139.7 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 91.44 0)
+			(at 139.7 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1355,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 91.44 0)
+			(at 139.7 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1372,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R8")
+					(reference "R_MCLR1")
 					(unit 1)
 				)
 			)
@@ -1381,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 85.09 0)
+		(at 128.27 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1389,8 +1388,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8586b12-81ce-4d19-ba70-ed06b17c86c6")
-		(property "Reference" "#PWR022"
-			(at 162.56 88.9 0)
+		(property "Reference" "#PWR025"
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1398,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 80.01 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 85.09 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 85.09 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 85.09 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1438,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1447,7 +1446,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 106.68 0)
+		(at 128.27 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1455,8 +1454,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf534b82-2199-4729-89c5-38c5d7fa731a")
-		(property "Reference" "#PWR023"
-			(at 162.56 110.49 0)
+		(property "Reference" "#PWR026"
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1464,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 101.6 0)
+			(at 128.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 106.68 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 106.68 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 106.68 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1504,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1513,7 +1512,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 85.09 0)
+		(at 152.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1521,8 +1520,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7114814-314b-4f05-b8e6-80b443335c71")
-		(property "Reference" "SW_UP1"
-			(at 186.69 77.47 0)
+		(property "Reference" "SW_UP3"
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,8 +1529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 186.69 80.01 0)
+		(property "Value" "SW_WINDOWN"
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 80.01 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 80.01 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1556,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 85.09 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1573,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP1")
+					(reference "SW_UP3")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1581,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 63.5 0)
+		(at 128.27 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1590,8 +1589,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75d86f8-f13c-406a-bbc8-a406703662b3")
-		(property "Reference" "#PWR021"
-			(at 162.56 67.31 0)
+		(property "Reference" "#PWR024"
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1599,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 58.42 0)
+			(at 128.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 63.5 0)
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 63.5 0)
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 63.5 0)
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1639,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1648,7 +1647,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 106.68 0)
+		(at 152.4 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1656,8 +1655,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6296bb7-0eb3-4fc2-ba3d-4b8a12ec7b86")
-		(property "Reference" "SW_UP2"
-			(at 186.69 99.06 0)
+		(property "Reference" "SW_UP4"
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,8 +1664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 186.69 101.6 0)
+		(property "Value" "SW_LIMIT"
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 101.6 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 101.6 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1691,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 106.68 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1708,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP2")
+					(reference "SW_UP4")
 					(unit 1)
 				)
 			)
@@ -1717,7 +1716,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 116.84 91.44 0)
+		(at 152.4 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1725,8 +1724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed7ef386-4f70-4dd7-8c5e-35dd5debac07")
-		(property "Reference" "SW_UP3"
-			(at 116.84 83.82 0)
+		(property "Reference" "SW_UP1"
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,8 +1733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 116.84 86.36 0)
+		(property "Value" "SW_MCLR"
+			(at 152.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 86.36 0)
+			(at 152.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 86.36 0)
+			(at 152.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1760,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 116.84 91.44 0)
+			(at 152.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1777,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP3")
+					(reference "SW_UP1")
 					(unit 1)
 				)
 			)
@@ -1786,7 +1785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 91.44 0)
+		(at 160.02 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1794,8 +1793,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f380cd64-e5ba-4ef3-ad9f-1060f70c9c20")
-		(property "Reference" "#PWR024"
-			(at 124.46 97.79 0)
+		(property "Reference" "#PWR023"
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 96.52 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 91.44 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 91.44 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 91.44 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1843,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
