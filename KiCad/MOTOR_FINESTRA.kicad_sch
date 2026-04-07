@@ -1370,7 +1370,7 @@
 		(uuid "03a05aa1-e727-46ce-bbf4-179f3198536d")
 	)
 	(junction
-		(at 157.48 102.87)
+		(at 182.88 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ed2deb-924c-49b7-9d4e-471317f14f98")
@@ -1388,7 +1388,7 @@
 		(uuid "209cd5b2-fbb0-4220-bdac-ac651baa0d47")
 	)
 	(junction
-		(at 130.81 106.68)
+		(at 130.81 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25881891-690a-4ff0-ad50-f3c96a2eac4f")
@@ -1413,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 132.08 106.68)
+			(xy 130.81 110.49) (xy 132.08 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1423,7 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 157.48 102.87)
+			(xy 148.59 107.95) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1440,6 +1440,26 @@
 			(type default)
 		)
 		(uuid "1223ee04-deb9-4eaa-ab14-dac4a693d76a")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abb1d89-dfc4-4e50-a1b2-dbfc89e07913")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ec5667-2bf1-49fb-8ee6-45dfb63b8ad7")
 	)
 	(wire
 		(pts
@@ -1463,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 148.59 93.98)
+			(xy 148.59 107.95) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 130.81 110.49)
+			(xy 130.81 110.49) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 130.81 106.68)
+			(xy 129.54 110.49) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1583,13 +1603,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 81.28) (xy 184.15 83.82)
+			(xy 184.15 77.47) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2cbdec7-e97c-40aa-8730-dc8da934fed8")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a474438f-9006-43a9-b196-716eb069ed1d")
 	)
 	(wire
 		(pts
@@ -1613,7 +1643,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 166.37 102.87)
+			(xy 182.88 104.14) (xy 182.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1554be-e3a1-40e2-bd47-5bf0f026a4c6")
+	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 191.77 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1801,7 @@
 	)
 	(hierarchical_label "WIN_DIAGB"
 		(shape output)
-		(at 166.37 102.87 0)
+		(at 191.77 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,7 +1812,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 130.81 110.49 0)
+		(at 130.81 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1781,7 +1821,7 @@
 		(fields_autoplaced yes)
 		(uuid "044de88d-fe0e-4f47-94f5-464ee9d18d32")
 		(property "Reference" "#PWR031"
-			(at 130.81 115.57 0)
+			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1830,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 130.683 114.3 0)
+			(at 130.683 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 111.76 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 111.76 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 130.81 110.49 0)
+			(at 130.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,15 +1878,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 87.63 180)
+		(at 184.15 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "165fcebf-e7cc-43fb-9bb9-e467d31d26ba")
-		(property "Reference" "R10"
-			(at 181.864 89.408 90)
+		(property "Reference" "R_WIN_DIAGA1"
+			(at 187.198 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1894,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 181.864 85.344 90)
+			(at 181.864 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 185.928 87.63 90)
+			(at 185.928 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 87.63 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 87.63 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1937,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "R10")
+					(reference "R_WIN_DIAGA1")
 					(unit 1)
 				)
 			)
@@ -1905,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 184.15 81.28 0)
+		(at 184.15 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1913,7 +1953,7 @@
 		(dnp no)
 		(uuid "172b6954-e806-441c-a3bb-56d68d91b1bb")
 		(property "Reference" "#PWR036"
-			(at 184.15 85.09 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1962,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 180.086 79.756 0)
+			(at 180.086 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 81.28 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 81.28 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 184.15 81.28 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b294544-6b37-47d0-bddd-c10e746e05fe")
-		(property "Reference" "C12"
+		(property "Reference" "C_WIN_CP1"
 			(at 158.75 73.66 90)
 			(effects
 				(font
@@ -1994,7 +2034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.94 82.2452 0)
 			(effects
 				(font
@@ -2030,7 +2070,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "C12")
+					(reference "C_WIN_CP1")
 					(unit 1)
 				)
 			)
@@ -2044,10 +2084,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2887fb7f-4a70-41b6-ae6f-9e00aecbaf22")
-		(property "Reference" "C11"
-			(at 133.35 62.23 90)
+		(property "Reference" "C_WIN_2"
+			(at 138.938 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,14 +2094,14 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 133.35 64.77 90)
+			(at 133.604 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 137.16 68.8848 0)
 			(effects
 				(font
@@ -2098,7 +2137,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "C11")
+					(reference "C_WIN_2")
 					(unit 1)
 				)
 			)
@@ -2106,15 +2145,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 99.06 180)
+		(at 182.88 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2afae018-3d49-4cd3-8167-bb76d0190a72")
-		(property "Reference" "R9"
-			(at 159.766 101.092 90)
+		(property "Reference" "R_WIN_DIAGB1"
+			(at 186.436 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2161,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 159.766 97.028 90)
+			(at 179.578 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 159.258 99.06 90)
+			(at 184.658 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 99.06 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2187,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 99.06 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2204,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "R9")
+					(reference "R_WIN_DIAGB1")
 					(unit 1)
 				)
 			)
@@ -2240,7 +2279,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 95.25 0)
+		(at 182.88 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2248,7 +2287,7 @@
 		(dnp no)
 		(uuid "54439a49-d3db-4bce-8198-cfc7033ea435")
 		(property "Reference" "#PWR034"
-			(at 157.48 99.06 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2296,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 153.416 93.726 0)
+			(at 178.816 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 95.25 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 95.25 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 95.25 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,10 +2416,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "895f881b-98ca-4d64-b7d4-c0c1c6363f92")
-		(property "Reference" "C10"
-			(at 133.35 54.61 90)
+		(property "Reference" "C_WIN_1"
+			(at 139.446 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,14 +2426,14 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 133.35 57.15 90)
+			(at 133.858 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 137.16 61.2648 0)
 			(effects
 				(font
@@ -2431,7 +2469,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "C10")
+					(reference "C_WIN_1")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ef4b36-0bc9-447f-9204-7c3cdff254cf")
-		(property "Reference" "R8"
+		(property "Reference" "R_WIN_CS1"
 			(at 146.05 115.5699 0)
 			(effects
 				(font
@@ -2664,7 +2702,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b6effc59-48f1-49a7-95ce-6407716902cc"
-					(reference "R8")
+					(reference "R_WIN_CS1")
 					(unit 1)
 				)
 			)

@@ -800,7 +800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 74.168 90)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 95.758 90)
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -1202,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 117.348 90)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 51.308 90)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -1741,7 +1741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 152.4 44.45 0)
 			(effects
 				(font
