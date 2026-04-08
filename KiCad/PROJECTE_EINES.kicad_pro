@@ -615,36 +615,28 @@
       "Root"
     ],
     [
-      "a8709361-50f1-45a9-9990-4a11f8b46576",
-      "ETAPA DE ALIMENTACIÓ"
-    ],
-    [
       "1f039355-d395-4709-b940-eff82ebe0f62",
       "MICROCONTROLADOR I DEBUG"
     ],
     [
       "119ce145-2c93-4544-b106-e85ec51fdc64",
-      "BUS CAN"
-    ],
-    [
-      "31dcd71e-4130-43cb-a335-13c9e1a3d043",
-      "SENSOR RFID"
+      "COMUNICACIONS"
     ],
     [
       "85b10b44-f8b7-4b58-879f-bd15e6c8e976",
       "INPUTS"
     ],
     [
-      "b6effc59-48f1-49a7-95ce-6407716902cc",
-      "DRIVER DEL MOTOR FINESTRA"
+      "b8d025f8-884e-44af-b29b-4fb2140b95b4",
+      "ETAPA DE ALIMENTACIO"
     ],
     [
-      "839c8b34-4c01-48c7-9037-58d60b295fe6",
-      "DRIVER MOTOR PORTA"
+      "0182dfdd-06e0-4cd2-9407-e3ad60659aa3",
+      "ETAPA DE POTENCIA"
     ],
     [
       "0aa311db-868d-4102-819d-96f0255ccb92",
-      "SENSOR DE CORRENT"
+      "SENSORS"
     ]
   ],
   "text_variables": {}

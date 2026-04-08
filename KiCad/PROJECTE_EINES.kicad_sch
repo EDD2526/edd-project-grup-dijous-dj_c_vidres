@@ -980,7 +980,7 @@
 	)
 	(text "COMUNICACIONS"
 		(exclude_from_sim no)
-		(at 168.91 36.83 0)
+		(at 164.084 39.116 0)
 		(effects
 			(font
 				(size 3 3)
@@ -988,9 +988,9 @@
 		)
 		(uuid "27a7d9f7-1d93-43b4-950c-84c9eaa50f0f")
 	)
-	(text "MOTOR FINESTRA"
+	(text "POTENCIA\n\n"
 		(exclude_from_sim no)
-		(at 113.284 138.43 0)
+		(at 226.568 91.186 0)
 		(effects
 			(font
 				(size 3 3)
@@ -998,39 +998,9 @@
 		)
 		(uuid "359d5359-9cc1-4c09-bfd8-d791a5653f5e")
 	)
-	(text "ALIMENTACIÓ"
-		(exclude_from_sim no)
-		(at 93.472 35.814 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "3ee74832-bad1-4aeb-8246-63185b8580ca")
-	)
-	(text "SENSOR RFID"
-		(exclude_from_sim no)
-		(at 230.632 89.662 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "437b0845-0a60-4279-a268-d5651f18d8fb")
-	)
-	(text "MOTOR PORTA"
-		(exclude_from_sim no)
-		(at 212.852 137.16 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "4a7297b2-6ebe-4b90-a8c0-705f5c4c1495")
-	)
 	(text "MICROCONTROLADOR\n"
 		(exclude_from_sim no)
-		(at 161.29 90.17 0)
+		(at 115.57 91.44 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1040,7 +1010,7 @@
 	)
 	(text "INPUTS"
 		(exclude_from_sim no)
-		(at 97.536 89.916 0)
+		(at 111.76 156.718 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1048,35 +1018,25 @@
 		)
 		(uuid "80869284-f7af-4fbc-a36e-2e38be9ddecf")
 	)
-	(text "SENSOR FINAL \nDE CARRERA"
+	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
-		(at 238.506 41.148 0)
+		(at 77.978 38.1 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "99db54ef-28ba-410b-8b67-d5488289dbf2")
+	)
+	(text "SENSORS"
+		(exclude_from_sim no)
+		(at 246.888 37.338 0)
 		(effects
 			(font
 				(size 3 3)
 			)
 		)
 		(uuid "c39de30a-660f-40f2-83f6-10b7fda7e53b")
-	)
-	(wire
-		(pts
-			(xy 137.16 35.56) (xy 138.43 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ae4159-c69c-4303-9408-9f812fd16a55")
-	)
-	(wire
-		(pts
-			(xy 119.38 83.82) (xy 127 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e24d19-4f6a-48ea-81e2-fb5dcbc72fcd")
 	)
 	(wire
 		(pts
@@ -1090,63 +1050,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 137.16 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c32050-1e4a-4542-8cef-403a7bb11bb5")
-	)
-	(wire
-		(pts
-			(xy 123.19 106.68) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2186bcaf-4912-4db2-82d2-4a21d323a084")
-	)
-	(wire
-		(pts
-			(xy 201.93 76.2) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b44f9ea-623a-4379-94fb-568d2b70c17a")
-	)
-	(wire
-		(pts
-			(xy 49.53 101.6) (xy 41.91 101.6)
+			(xy 43.18 93.98) (xy 35.56 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d3841ab-00f1-459a-bfb2-ccf9b6ea0d2e")
-	)
-	(wire
-		(pts
-			(xy 207.01 41.91) (xy 207.01 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe87e6c-08b5-4e56-91eb-fccd8b59f5ff")
-	)
-	(wire
-		(pts
-			(xy 125.73 87.63) (xy 125.73 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e856b5-4cfa-440a-8943-4827bb009b4f")
 	)
 	(wire
 		(pts
@@ -1160,76 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 83.82) (xy 203.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43df75c8-a0bc-4eb2-91bd-f7b330e62355")
-	)
-	(wire
-		(pts
-			(xy 187.96 96.52) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49f16aa9-e095-49f1-a02a-c5d85b9849bb")
-	)
-	(wire
-		(pts
-			(xy 137.16 105.41) (xy 135.89 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f000c62-97b8-4315-bdc0-97058f3c33bb")
-	)
-	(wire
-		(pts
-			(xy 187.96 101.6) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e68a0c-6ad7-454f-af6d-9820565ec10c")
-	)
-	(wire
-		(pts
-			(xy 212.09 41.91) (xy 207.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a2ba5b3-238e-433a-88be-e543ac005568")
-	)
-	(wire
-		(pts
-			(xy 203.2 87.63) (xy 204.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb2b51e-9762-4f28-a35d-914a737bc53a")
-	)
-	(wire
-		(pts
-			(xy 119.38 87.63) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e52b92-bf78-4da2-a46e-32f5ca3d58f1")
-	)
-	(wire
-		(pts
 			(xy 40.64 26.67) (xy 40.64 27.94)
 		)
 		(stroke
@@ -1240,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 101.6) (xy 34.29 101.6)
+			(xy 20.32 93.98) (xy 27.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1250,53 +1090,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 204.47 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9575f833-a0dd-4096-add2-bde0bd21985a")
-	)
-	(wire
-		(pts
-			(xy 204.47 81.28) (xy 204.47 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18d9187-e92a-4ba1-afc4-669f6adac44b")
-	)
-	(wire
-		(pts
-			(xy 26.67 102.87) (xy 26.67 101.6)
+			(xy 20.32 95.25) (xy 20.32 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a29c4042-92ea-4864-bc6b-33910ae74ea2")
-	)
-	(wire
-		(pts
-			(xy 119.38 76.2) (xy 137.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e0a6f2-6d47-4b59-a037-5eede64e0d84")
-	)
-	(wire
-		(pts
-			(xy 185.42 83.82) (xy 203.2 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9743461-8b4a-4f6c-b366-4bb2294643bd")
 	)
 	(wire
 		(pts
@@ -1310,97 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 204.47 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc368622-06bb-4d16-9b5b-033f53606c91")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 127 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c097d852-1bee-48f8-b31b-f8aee5fc2503")
-	)
-	(wire
-		(pts
-			(xy 120.65 92.71) (xy 119.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3aaaa29-0816-4f8e-92d6-4eee07dc5007")
-	)
-	(wire
-		(pts
-			(xy 203.2 86.36) (xy 203.2 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43c281e-9f78-4e81-a94c-ece039e24673")
-	)
-	(wire
-		(pts
-			(xy 187.96 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceca137d-0970-4548-92c9-8faabedfef5c")
-	)
-	(wire
-		(pts
-			(xy 135.89 105.41) (xy 135.89 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05a4cee-8a10-4dbc-9f5d-ea289f58c510")
-	)
-	(wire
-		(pts
-			(xy 120.65 106.68) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d905f2-c0f7-456b-966b-829dd9f2fdfe")
-	)
-	(wire
-		(pts
-			(xy 185.42 86.36) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c013d4-9c37-495f-ab11-8e56cdace3cc")
-	)
-	(wire
-		(pts
-			(xy 203.2 85.09) (xy 204.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08ec6ae-7f17-4620-bc45-3dfbcd993779")
-	)
-	(wire
-		(pts
-			(xy 49.53 102.87) (xy 49.53 101.6)
+			(xy 43.18 95.25) (xy 43.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1420,13 +1130,73 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 137.16 100.33)
+			(xy 186.69 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8d3a37c-aae0-462e-b5a3-83cfe2422eb4")
+		(uuid "ee11c298-c850-41d6-b207-4b7d1967cde0")
+	)
+	(global_label "WIN_OUTA"
+		(shape output)
+		(at 248.92 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01adad1f-c5c8-4f6b-be90-5cd97f248a2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_LOCK_SW"
+		(shape input)
+		(at 151.13 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "025d13d4-fc42-45a9-a7e0-4cfa9fd6e64f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_LOCK_SW"
+		(shape output)
+		(at 134.62 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03e27e29-aaaa-4b32-9c7a-02cd288632c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DOOR_MOTOR_A"
 		(shape output)
@@ -1448,18 +1218,98 @@
 			)
 		)
 	)
-	(global_label "WIN_DIAGA"
+	(global_label "RFID_MISO"
 		(shape output)
-		(at 139.7 129.54 0)
+		(at 271.78 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "057399af-d2e0-428c-8093-512e3b0eace0")
+		(uuid "0a0b7f36-a685-4f4a-a30f-49ac491346ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 129.54 0)
+			(at 271.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_BTN_DOWN"
+		(shape output)
+		(at 91.44 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b8a84bb-cce9-486a-820d-8e903d43b09c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_PWM"
+		(shape input)
+		(at 201.93 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "134c907b-e5c4-454b-8b98-b4acf48083a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_PWM"
+		(shape input)
+		(at 248.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14011847-a9f9-47a2-b0fb-e09e594b689e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_BTN_OPEN"
+		(shape input)
+		(at 151.13 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "150c2ad2-533c-4aba-99ba-00a1fb4dc6a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,119 +1319,117 @@
 		)
 	)
 	(global_label "WIN_DIAGB"
-		(shape output)
-		(at 139.7 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11f4b64a-219a-4629-9c88-8e6401921a84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_MOTOR_A"
-		(shape output)
-		(at 246.38 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "195a328f-09b3-4c14-b5fa-383e303e38c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIN_CURRENT_ADC"
-		(shape output)
-		(at 139.7 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30144e93-0392-4032-9221-00aa12c82080")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_TX"
-		(shape output)
-		(at 185.42 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30e3148e-e2d1-47d4-9bef-0210074500b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
 		(shape input)
-		(at 168.91 106.68 270)
-		(fields_autoplaced yes)
+		(at 151.13 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "45c7f6ca-1644-484f-ae9d-ee2b055dd081")
+		(uuid "1e269a76-5d26-414e-991b-529dd685cf4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 113.5357 90)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "WIN_CURRENT_ADC"
-		(shape output)
-		(at 207.01 43.18 270)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 80.01 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4720ca1f-f437-4bf7-bd1f-cdcf9443520a")
+		(uuid "26132539-63b9-400a-86c6-8accc9b6fe0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 43.18 90)
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_RST"
+		(shape input)
+		(at 271.78 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26704f0f-3712-4eef-b5e2-8e6b2b22c9ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_LIMIT"
+		(shape output)
+		(at 91.44 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2977a776-00e4-49cf-ab17-c31f07c3fabf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape bidirectional)
+		(at 138.43 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c044d28-1458-4b3e-9a24-eeaef6f5dd00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_DIAGA"
+		(shape input)
+		(at 151.13 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "315452c7-7d25-44b5-ac6a-a8213538dfca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,16 +1440,196 @@
 	)
 	(global_label "UART_TX"
 		(shape output)
-		(at 138.43 29.21 180)
+		(at 80.01 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "35968a9d-c534-44fc-9875-dacb630e2592")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_PWM"
+		(shape output)
+		(at 151.13 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "375b39ed-081a-479a-a752-6c99068cb031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_RST"
+		(shape output)
+		(at 80.01 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37c50c3b-56dd-4385-9ad8-3c1bfdfaa90e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_INA"
+		(shape input)
+		(at 248.92 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39908acd-d40a-4b39-8c42-34c7d1bdc2df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape output)
+		(at 80.01 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ccb34d2-98eb-4376-8b1c-13e913e74b5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_PROT"
+		(shape input)
+		(at 224.79 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46445f7b-74a8-46ab-b375-00a5decba59a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_CURRENT_ADC"
+		(shape input)
+		(at 151.13 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d7911f-96f3-4117-8703-b657e3f761fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_DIAGB"
+		(shape output)
+		(at 201.93 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4815aeff-fc9c-4c7d-b64b-590b81f4165a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_UNLOCK_SW"
+		(shape output)
+		(at 134.62 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48a455b2-dcb1-4eb3-a610-3bc6536c0262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 186.69 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "4a5e0bbc-1a3c-4162-9eaf-268e37fd5ac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 29.21 0)
+			(at 186.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,18 +1658,58 @@
 			)
 		)
 	)
-	(global_label "WIN_PWM"
-		(shape output)
-		(at 187.96 101.6 0)
+	(global_label "UART_RX"
+		(shape input)
+		(at 80.01 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4df01c0d-2a3a-459c-9bac-ebe711bacfde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_UNLOCK_SW"
+		(shape input)
+		(at 151.13 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "58c0c8bd-b651-4380-9ab3-456cbcc0c018")
+		(uuid "58ef7f8c-ec79-4ada-a6c2-fc3590df0306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 101.6 0)
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_DIAGB"
+		(shape input)
+		(at 151.13 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cb7733f-a33e-47a1-a8fa-bb80793c3d05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,6 +1738,26 @@
 			)
 		)
 	)
+	(global_label "RFID_SCK"
+		(shape output)
+		(at 80.01 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e0e2065-3d2e-4f8c-bf09-2b952bf7d252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIN_MOTOR_B"
 		(shape output)
 		(at 26.67 66.04 0)
@@ -1690,18 +1778,18 @@
 			)
 		)
 	)
-	(global_label "WIN_DIAGA"
+	(global_label "DOOR_INA"
 		(shape output)
-		(at 135.89 109.22 270)
+		(at 151.13 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "62f0b4d3-3930-4280-99d1-d31f217775ee")
+		(uuid "65d0ebbe-0879-44a7-9eb7-0f1f5991b896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 109.22 90)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,18 +1798,18 @@
 			)
 		)
 	)
-	(global_label "WIN_LIMIT"
+	(global_label "DOOR_OUTA"
 		(shape output)
-		(at 161.29 106.68 270)
+		(at 201.93 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6fb71a7e-0c17-4382-9591-6f981d676ce0")
+		(uuid "69865015-0d0b-4348-80b8-d2f8d52ffc83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 106.68 90)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,18 +1818,18 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "WIN_INB"
 		(shape output)
-		(at 137.16 83.82 180)
+		(at 151.13 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "77bbbe4c-311b-47c2-b8cc-8ed2e0d8e0ec")
+		(uuid "6b3c2c49-d05d-4143-816b-d3c6356b5954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 83.82 0)
+			(at 151.13 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,18 +1838,98 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
-		(shape output)
-		(at 137.16 95.25 180)
+	(global_label "CAN_RX"
+		(shape bidirectional)
+		(at 138.43 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "796e811f-8a12-4f61-98a5-218bbf7c20a3")
+		(uuid "6be1f1b6-e6d4-450c-ba3f-190d1c13e44c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 95.25 0)
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCLR"
+		(shape bidirectional)
+		(at 80.01 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c6de8fc-234d-4deb-a55d-8f26b7d5768e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGED1"
+		(shape bidirectional)
+		(at 80.01 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74cb456a-3e87-40fc-a644-d4db78d23a6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_DIAGA"
+		(shape output)
+		(at 201.93 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "772b6bae-74e7-4a31-8048-829fc29c6fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_BTN_CLOSED"
+		(shape input)
+		(at 151.13 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79913557-2d7d-4b25-ba7d-691babbb9267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,58 +1958,18 @@
 			)
 		)
 	)
-	(global_label "WIN_MOTOR_A"
-		(shape output)
-		(at 139.7 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a924146-1655-4752-b816-dcd2afabf5b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT_12V"
+	(global_label "DOOR_LIMIT_OPEN"
 		(shape input)
-		(at 72.39 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e38bf18-0a93-445b-824e-d30440f2fe72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIN_MOTOR_B"
-		(shape output)
-		(at 139.7 148.59 0)
+		(at 151.13 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7eb6628e-d2db-4662-ae12-40ca94cb211c")
+		(uuid "7ba8a126-23a0-4e4b-bc46-2278c3ffbab6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 148.59 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,18 +1978,18 @@
 			)
 		)
 	)
-	(global_label "VBAT_PROT"
-		(shape output)
-		(at 113.03 45.72 0)
+	(global_label "DOOR_LIMIT_CLOSE"
+		(shape input)
+		(at 151.13 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "820ebf72-e6e0-4ea8-ace9-71705c89e5b1")
+		(uuid "7c120ff5-89e7-4c21-b3de-19e96b8322b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 45.72 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,18 +1998,18 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "RFID_CS"
 		(shape output)
-		(at 137.16 92.71 180)
+		(at 80.01 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8a6f0a6d-2481-4f28-b40a-404a9be10c38")
+		(uuid "7cf52cc1-ed1d-4e3c-ae1d-0e010efe795c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 92.71 0)
+			(at 80.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,18 +2018,18 @@
 			)
 		)
 	)
-	(global_label "VBAT_PROT"
-		(shape output)
-		(at 186.69 125.73 180)
+	(global_label "MCLR"
+		(shape bidirectional)
+		(at 113.03 143.51 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8cb0c95d-3c60-4258-bead-0b16597133c0")
+		(uuid "7dbc1355-9e3a-4121-a817-d17071438a2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 125.73 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,18 +2038,38 @@
 			)
 		)
 	)
-	(global_label "WIN_PWM"
-		(shape output)
-		(at 88.9 148.59 180)
+	(global_label "RFID_SCK"
+		(shape input)
+		(at 271.78 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "926935b1-0bed-4b8e-8ad3-7689e4c9c2ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_CURRENT_ADC"
+		(shape input)
+		(at 219.71 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8d525fb4-f9da-42a3-814e-b63853bc05b3")
+		(uuid "93345436-c149-478b-aadb-b6f4be7ba004")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 148.59 0)
+			(at 219.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,38 +2098,18 @@
 			)
 		)
 	)
-	(global_label "WIN_LIMIT"
+	(global_label "WIN_INA"
 		(shape output)
-		(at 123.19 106.68 0)
+		(at 151.13 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "97635896-7c93-4498-addc-09cd754fb147")
+		(uuid "a7e24e82-3d06-4e8f-acd3-bf5b8fef34d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIN_INA"
-		(shape output)
-		(at 88.9 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0db6c3e-8d8b-44a5-8e4f-2890b0783156")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 143.51 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,16 +2120,96 @@
 	)
 	(global_label "WIN_DIAGB"
 		(shape output)
-		(at 158.75 106.68 270)
+		(at 248.92 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa6b97c4-b293-4d64-87d8-be2f431b10be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGEC1"
+		(shape input)
+		(at 80.01 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bb924b60-4dbc-4a16-aaa4-41ffa81c51fa")
+		(uuid "ac224246-28d4-4f5e-a238-d160470ed537")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 106.68 90)
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_CS"
+		(shape input)
+		(at 271.78 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac3166a5-0cfe-43d9-96bb-19881ea06cd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_MOSI"
+		(shape output)
+		(at 80.01 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b385c640-5573-4a57-9cdd-48642be8c255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_CURRENT_ADC"
+		(shape output)
+		(at 248.92 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7c957b8-a510-4483-869b-c92b90775a44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,38 +2258,18 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "UART_RX"
 		(shape output)
-		(at 137.16 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c361dbba-e5b0-44d2-a933-0420521ceee8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIN_INA"
-		(shape output)
-		(at 187.96 96.52 0)
+		(at 186.69 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c4b305e5-f732-4094-a5e5-8df84bc5f62b")
+		(uuid "c361dbba-e5b0-44d2-a933-0420521ceee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 96.52 0)
+			(at 186.69 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,78 +2278,18 @@
 			)
 		)
 	)
-	(global_label "WIN_CURRENT_ADC"
-		(shape output)
-		(at 137.16 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4f42174-c96b-4b83-a2d4-21c6671de0bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PGEC1"
+	(global_label "WIN_BTN_UP"
 		(shape input)
-		(at 137.16 78.74 180)
+		(at 151.13 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d5cefef9-bb23-4f44-aded-52cb0cef57b9")
+		(uuid "c5eb2826-22e5-42bf-90a7-0a48686ce542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PGED1"
-		(shape input)
-		(at 137.16 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db3c8ba8-c229-4452-a891-bd9c3ad33886")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape output)
-		(at 201.93 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db8a1755-1e1f-4b5c-9ec6-8522d0a8f364")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 76.2 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,36 +2300,16 @@
 	)
 	(global_label "VBAT_PROT"
 		(shape output)
-		(at 88.9 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbdf606d-3d8e-41d0-97b8-f5937a03324c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_MOTOR_B"
-		(shape output)
-		(at 246.38 147.32 0)
+		(at 101.6 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e05a9e08-49f9-475a-97ff-46c4aaaa3e10")
+		(uuid "cabf8a96-5bb4-4bd1-9974-3bba44ac338b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 147.32 0)
+			(at 101.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,17 +2319,17 @@
 		)
 	)
 	(global_label "WIN_INB"
-		(shape output)
-		(at 187.96 99.06 0)
+		(shape input)
+		(at 248.92 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fdd2f434-bfa5-4196-98ad-7b49d0bcd483")
+		(uuid "d136537b-a572-49e2-8e06-2af91f3aefb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 99.06 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,18 +2338,358 @@
 			)
 		)
 	)
-	(global_label "WIN_INB"
+	(global_label "WIN_OUTB"
 		(shape output)
-		(at 88.9 146.05 180)
+		(at 248.92 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d19d9ac5-53ef-45cc-9ab7-de237e0c6929")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_INB"
+		(shape input)
+		(at 201.93 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ff8a5f50-1357-46f0-8a59-78830d51aaaf")
+		(uuid "d283b3b4-d3af-42dc-9dec-7a35301f0fab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 146.05 0)
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_BTN_CLOSED"
+		(shape output)
+		(at 134.62 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e8c597-de6e-4946-ac3d-2e38c705dd03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_OUTB"
+		(shape output)
+		(at 201.93 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8d6c6d6-d2fa-4f8a-930b-c0840fed31f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_MOSI"
+		(shape input)
+		(at 271.78 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcb89801-77b3-49b9-9762-91d93d7c8eb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_LIMIT"
+		(shape input)
+		(at 151.13 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbcbb5b-48dd-420e-a26d-1a2d2611423c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_BTN_DOWN"
+		(shape input)
+		(at 151.13 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de72649e-0d39-4de6-b12a-1b844dabb7ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_DIAGA"
+		(shape input)
+		(at 151.13 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e025b2e0-4032-44be-85c4-f46006b7c158")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_3V3"
+		(shape output)
+		(at 101.6 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0720d27-4d1c-4cd8-a7c7-0d87bd9ae943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_DIAGA"
+		(shape output)
+		(at 248.92 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e18b3fae-b743-47fe-b1d0-9405387d7cea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_BTN_OPEN"
+		(shape output)
+		(at 134.62 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e22b0836-688b-4f80-8247-760715c9b4cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_MISO"
+		(shape input)
+		(at 80.01 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7bde22e-7e83-487d-9574-268967665887")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIN_BTN_UP"
+		(shape output)
+		(at 91.44 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ede57cef-96a2-4450-9d7c-0f39abcff006")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_INB"
+		(shape output)
+		(at 151.13 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eedc397e-5963-46fb-9e5c-16e4d3ada718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_INA"
+		(shape input)
+		(at 201.93 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f576773d-918d-41b2-b9a4-f0ca5301c45a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_3V3"
+		(shape input)
+		(at 115.57 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8510877-81e5-4db8-a8eb-b97bae3b602c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_PWM"
+		(shape output)
+		(at 151.13 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb1d9654-c11f-4351-b296-3fa18fe1d240")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_12V"
+		(shape input)
+		(at 58.42 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe127507-eba5-4aac-aac4-d8e16ea3d7db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2700,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 26.67 102.87 0)
+		(at 20.32 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2261,7 +2709,7 @@
 		(fields_autoplaced yes)
 		(uuid "25202d90-5022-4032-b083-31d2dc76c5a5")
 		(property "Reference" "#PWR01"
-			(at 26.67 107.95 0)
+			(at 20.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2718,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 26.543 106.68 0)
+			(at 20.193 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 104.14 0)
+			(at 20.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 104.14 0)
+			(at 20.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 26.67 102.87 0)
+			(at 20.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 102.87 0)
+		(at 43.18 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2395,7 +2843,7 @@
 		(fields_autoplaced yes)
 		(uuid "598cefd6-7e7a-44c9-ae06-6a1cc9cf96f1")
 		(property "Reference" "#PWR05"
-			(at 49.53 109.22 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 107.95 0)
+			(at 43.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 102.87 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 102.87 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 102.87 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +3244,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 101.6 90)
+		(at 31.75 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2805,7 +3253,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd16b199-0218-4f44-be72-ee736b8a6f6c")
 		(property "Reference" "R1"
-			(at 38.1 95.25 90)
+			(at 31.75 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,15 +3261,15 @@
 			)
 		)
 		(property "Value" "0"
-			(at 38.1 97.79 90)
+			(at 31.75 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 103.378 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 31.75 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +3278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 101.6 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3287,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 101.6 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,8 +3377,8 @@
 		)
 	)
 	(sheet
-		(at 212.09 25.4)
-		(size 52.07 31.75)
+		(at 201.93 71.12)
+		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2943,9 +3391,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0aa311db-868d-4102-819d-96f0255ccb92")
-		(property "Sheetname" "SENSOR DE CORRENT"
-			(at 212.09 24.6884 0)
+		(uuid "0182dfdd-06e0-4cd2-9407-e3ad60659aa3")
+		(property "Sheetname" "ETAPA DE POTENCIA"
+			(at 201.93 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,486 +3401,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SENSOR_CORRENT.kicad_sch"
-			(at 212.09 57.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NO" input
-			(at 212.09 41.91 180)
-			(uuid "898b5c10-c04b-4bcb-a8d0-f53b2ecd96e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 21.59)
-		(size 59.69 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "119ce145-2c93-4544-b106-e85ec51fdc64")
-		(property "Sheetname" "BUS CAN"
-			(at 138.43 20.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BUS_CAN.kicad_sch"
-			(at 138.43 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CANRX" bidirectional
-			(at 138.43 46.99 180)
-			(uuid "1bb2fdc4-ee68-47cf-b755-b601376e7985")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CANTX" bidirectional
-			(at 138.43 41.91 180)
-			(uuid "42df2dcb-3dfd-461d-9e17-f80a98e0bf8c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX" output
-			(at 138.43 35.56 180)
-			(uuid "ae416fac-3800-490f-973d-c03544f6fb36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX" input
-			(at 138.43 29.21 180)
-			(uuid "e3d04cc1-4de7-426c-af6d-8e2862fe7660")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 137.16 74.93)
-		(size 48.26 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1f039355-d395-4709-b940-eff82ebe0f62")
-		(property "Sheetname" "MICROCONTROLADOR I DEBUG"
-			(at 137.16 74.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MICROCONTROLADOR_DEBUG.kicad_sch"
-			(at 137.16 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" passive
-			(at 168.91 106.68 270)
-			(uuid "01292db5-c63d-4573-a788-67bbd467c304")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCLR" bidirectional
-			(at 137.16 76.2 180)
-			(uuid "46658e99-3d5d-45cb-8ab0-b66ffe86105c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PGEC1" input
-			(at 137.16 78.74 180)
-			(uuid "0f2f6ab0-ffde-4444-b1bd-c4ab7f268d1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PGED1" bidirectional
-			(at 137.16 81.28 180)
-			(uuid "3a4fd478-ba9b-47df-a9db-e37c684f291f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RFID_CS" output
-			(at 185.42 78.74 0)
-			(uuid "dd8fe6d0-0bef-4ed3-bcda-d665d5eda1d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RFID_MISO" input
-			(at 137.16 83.82 180)
-			(uuid "c6f7230f-cddc-467d-9d6e-348172b79344")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RFID_MOSI" output
-			(at 185.42 81.28 0)
-			(uuid "be3c7d83-0e63-4339-ab3b-cbe5acdd59ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RFID_RST" output
-			(at 185.42 83.82 0)
-			(uuid "6adc82c5-5fda-4a83-9fde-7b606ed8027b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RFID_SCK" output
-			(at 185.42 86.36 0)
-			(uuid "c778052c-1666-4628-8eca-e15879f725c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART_RX" input
-			(at 137.16 92.71 180)
-			(uuid "45525ac4-9234-4038-8e3b-5ddf84f127b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART_TX" output
-			(at 185.42 93.98 0)
-			(uuid "f792654b-46e2-48ec-b055-aa3379d5f8a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_3V3" input
-			(at 137.16 95.25 180)
-			(uuid "450423a6-78ab-4f73-8b0b-afa3a7a2d8b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_BTN_DOWN" input
-			(at 137.16 97.79 180)
-			(uuid "87fccc96-5b36-4ea0-969f-e478f1a20bb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_BTN_UP" input
-			(at 137.16 100.33 180)
-			(uuid "5c648969-5d1c-4528-88cc-77f22fb1f1a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_CURRENT_ADC" input
-			(at 137.16 102.87 180)
-			(uuid "36a480f8-081d-4134-b7ef-a497a4009bd1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_DIAGA" input
-			(at 137.16 105.41 180)
-			(uuid "531c01a5-9083-464f-8798-c714389fdfef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_DIAGB" input
-			(at 158.75 106.68 270)
-			(uuid "7edc0caf-67be-433f-94d3-f715b913f4a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_INA" output
-			(at 185.42 96.52 0)
-			(uuid "6ced06aa-1918-4dd2-a7a1-c0ea2d6a0f59")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_INB" output
-			(at 185.42 99.06 0)
-			(uuid "f2ac25a6-430f-4465-b5f1-a57fffac77a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_LIMIT" input
-			(at 161.29 106.68 270)
-			(uuid "dc15a0ae-048d-450c-97df-8bc5217b963c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_PWM" output
-			(at 185.42 101.6 0)
-			(uuid "caba6f33-a038-4cba-8bf1-2828f9ff4a60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 204.47 74.93)
-		(size 50.8 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "31dcd71e-4130-43cb-a335-13c9e1a3d043")
-		(property "Sheetname" "SENSOR RFID"
-			(at 204.47 74.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SENSOR_RFID.kicad_sch"
-			(at 204.47 105.9946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "MISO" output
-			(at 204.47 76.2 180)
-			(uuid "3b045f3c-0093-46e0-b143-d84498f24762")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOSI" input
-			(at 204.47 82.55 180)
-			(uuid "5733fae1-2067-4b6f-858b-4f2865fa181b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RST" input
-			(at 204.47 85.09 180)
-			(uuid "d27f5aa5-a863-4171-9412-127c446a7ab7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCK" input
-			(at 204.47 87.63 180)
-			(uuid "b969df74-40ce-4fc8-a200-acd34c745b1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA (SS)" input
-			(at 204.47 78.74 180)
-			(uuid "c74d8c98-c79a-40df-9071-138d7131efd4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 186.69 120.65)
-		(size 59.69 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "839c8b34-4c01-48c7-9037-58d60b295fe6")
-		(property "Sheetname" "DRIVER MOTOR PORTA"
-			(at 186.69 119.9384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOTOR_PORTA.kicad_sch"
-			(at 186.69 152.9846 0)
+		(property "Sheetfile" "ETAPA_POTENICA.kicad_sch"
+			(at 201.93 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,28 +3411,8 @@
 			)
 		)
 		(pin "DOOR_DIAGA" output
-			(at 246.38 127 0)
-			(uuid "f8e584e6-4c60-45c9-af4a-ee05c3efbf2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_DIAGB" output
-			(at 246.38 130.81 0)
-			(uuid "2294ce10-e9bf-41e1-a2c3-8573a570dea8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_INA" input
-			(at 186.69 140.97 180)
-			(uuid "bf193074-e3fe-4399-a71b-2a9c5b80ae2d")
+			(at 201.93 80.01 180)
+			(uuid "aecd1569-93a5-4c3b-915a-e852a964cd47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,9 +3420,19 @@
 				(justify left)
 			)
 		)
-		(pin "VBAT_PROT" input
-			(at 186.69 125.73 180)
-			(uuid "9b93250c-18ae-45fc-8cb8-d319e87d063e")
+		(pin "DOOR_DIAGB" output
+			(at 201.93 83.82 180)
+			(uuid "79ab068c-fb68-4702-bf2b-c5c70d7ec091")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_INA" input
+			(at 201.93 92.71 180)
+			(uuid "20b174c7-74b1-4064-9cb5-68d6c1c5effc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,18 +3441,8 @@
 			)
 		)
 		(pin "DOOR_INB" input
-			(at 186.69 143.51 180)
-			(uuid "8993d545-4cb9-4393-be88-e92e770296d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DOOR_PWM" input
-			(at 186.69 146.05 180)
-			(uuid "99924aff-10f3-4ea4-bf67-8b31d998c027")
+			(at 201.93 96.52 180)
+			(uuid "be51adec-1650-4b43-87fb-8f9b5d32f05c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,8 +3451,38 @@
 			)
 		)
 		(pin "DOOR_OUTA" output
-			(at 246.38 143.51 0)
-			(uuid "4b508e51-f099-4462-9504-5b0a3e3162c7")
+			(at 201.93 104.14 180)
+			(uuid "25a5e430-468d-4911-98bc-71273693d55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_OUTB" output
+			(at 201.93 107.95 180)
+			(uuid "2b0c8407-4aff-4381-b159-32124b3bbc3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_PWM" input
+			(at 201.93 76.2 180)
+			(uuid "62a68d3c-81dc-4283-b0c1-8baf931a6d43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_PROT" input
+			(at 224.79 71.12 90)
+			(uuid "477c5fb5-e095-4748-8050-e4a72470e0f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,9 +3490,79 @@
 				(justify right)
 			)
 		)
-		(pin "DOOR_OUTB" output
-			(at 246.38 147.32 0)
-			(uuid "399817e0-ace2-4398-99d0-41603b4025cc")
+		(pin "WIN_CURRENT_ADC" output
+			(at 248.92 100.33 0)
+			(uuid "5c71b692-2339-49e9-b4d4-79b94cf1bde8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGA" output
+			(at 248.92 80.01 0)
+			(uuid "82f0a22e-6e2f-43c9-add1-e4c310ce73e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGB" output
+			(at 248.92 83.82 0)
+			(uuid "7323616d-856f-4365-b217-6e70960b2105")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INA" input
+			(at 248.92 93.98 0)
+			(uuid "ee314ad4-02c5-4c02-8bb1-d70283b1ac03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INB" input
+			(at 248.92 97.79 0)
+			(uuid "b80d370e-a64c-4710-b758-fa984f2c6e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_OUTA" output
+			(at 248.92 107.95 0)
+			(uuid "414c9956-e509-4977-95e1-fa0ff0f1c85c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_OUTB" output
+			(at 248.92 104.14 0)
+			(uuid "f59b8cea-0bd5-4581-a6d8-cbaee44eabb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_PWM" input
+			(at 248.92 76.2 0)
+			(uuid "cc0ddb43-d774-43eb-814b-98be07ed5118")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,8 +3579,564 @@
 		)
 	)
 	(sheet
-		(at 76.2 74.93)
-		(size 43.18 27.94)
+		(at 219.71 27.94)
+		(size 52.07 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0aa311db-868d-4102-819d-96f0255ccb92")
+		(property "Sheetname" "SENSORS"
+			(at 219.71 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSOR_CORRENT.kicad_sch"
+			(at 219.71 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WIN_CURRENT_ADC" input
+			(at 219.71 31.75 180)
+			(uuid "898b5c10-c04b-4bcb-a8d0-f53b2ecd96e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_MISO" output
+			(at 271.78 29.21 0)
+			(uuid "d0237816-25c8-4c76-b116-db2137057a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RFID_MOSI" input
+			(at 271.78 31.75 0)
+			(uuid "cb54d44a-7064-4da4-b85b-a673e0bc7859")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RFID_RST" input
+			(at 271.78 35.56 0)
+			(uuid "da8b9519-f164-4f61-8e34-a0a8a7f2fed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RFID_SCK" input
+			(at 271.78 41.91 0)
+			(uuid "a08eeb0b-4e14-4841-b365-4bdb88c5ed0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RFID_CS" input
+			(at 271.78 44.45 0)
+			(uuid "9ffc6205-c688-48ec-b054-380a71ab113e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 29.21)
+		(size 48.26 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "119ce145-2c93-4544-b106-e85ec51fdc64")
+		(property "Sheetname" "COMUNICACIONS"
+			(at 138.43 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BUS_CAN.kicad_sch"
+			(at 138.43 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" output
+			(at 186.69 33.02 0)
+			(uuid "ae416fac-3800-490f-973d-c03544f6fb36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" input
+			(at 186.69 43.18 0)
+			(uuid "e3d04cc1-4de7-426c-af6d-8e2862fe7660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" bidirectional
+			(at 138.43 43.18 180)
+			(uuid "f9aa4de4-0980-401b-a30a-ae327a5ef1b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" bidirectional
+			(at 138.43 33.02 180)
+			(uuid "2758ed23-6e56-4b96-b2e0-2135b155f319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 63.5)
+		(size 71.12 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f039355-d395-4709-b940-eff82ebe0f62")
+		(property "Sheetname" "MICROCONTROLADOR I DEBUG"
+			(at 80.01 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MICROCONTROLADOR_DEBUG.kicad_sch"
+			(at 80.01 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLR" bidirectional
+			(at 80.01 68.58 180)
+			(uuid "46658e99-3d5d-45cb-8ab0-b66ffe86105c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGEC1" input
+			(at 80.01 72.39 180)
+			(uuid "0f2f6ab0-ffde-4444-b1bd-c4ab7f268d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGED1" bidirectional
+			(at 80.01 74.93 180)
+			(uuid "3a4fd478-ba9b-47df-a9db-e37c684f291f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_CS" output
+			(at 80.01 81.28 180)
+			(uuid "dd8fe6d0-0bef-4ed3-bcda-d665d5eda1d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_MISO" input
+			(at 80.01 78.74 180)
+			(uuid "c6f7230f-cddc-467d-9d6e-348172b79344")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_MOSI" output
+			(at 80.01 83.82 180)
+			(uuid "be3c7d83-0e63-4339-ab3b-cbe5acdd59ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_RST" output
+			(at 80.01 86.36 180)
+			(uuid "6adc82c5-5fda-4a83-9fde-7b606ed8027b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RFID_SCK" output
+			(at 80.01 88.9 180)
+			(uuid "c778052c-1666-4628-8eca-e15879f725c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 80.01 92.71 180)
+			(uuid "45525ac4-9234-4038-8e3b-5ddf84f127b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 80.01 95.25 180)
+			(uuid "f792654b-46e2-48ec-b055-aa3379d5f8a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 115.57 63.5 90)
+			(uuid "450423a6-78ab-4f73-8b0b-afa3a7a2d8b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_BTN_DOWN" input
+			(at 151.13 67.31 0)
+			(uuid "87fccc96-5b36-4ea0-969f-e478f1a20bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_BTN_UP" input
+			(at 151.13 64.77 0)
+			(uuid "5c648969-5d1c-4528-88cc-77f22fb1f1a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_CURRENT_ADC" input
+			(at 151.13 82.55 0)
+			(uuid "36a480f8-081d-4134-b7ef-a497a4009bd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGA" input
+			(at 151.13 72.39 0)
+			(uuid "531c01a5-9083-464f-8798-c714389fdfef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGB" input
+			(at 151.13 74.93 0)
+			(uuid "7edc0caf-67be-433f-94d3-f715b913f4a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INA" output
+			(at 151.13 77.47 0)
+			(uuid "6ced06aa-1918-4dd2-a7a1-c0ea2d6a0f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INB" output
+			(at 151.13 80.01 0)
+			(uuid "f2ac25a6-430f-4465-b5f1-a57fffac77a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_LIMIT" input
+			(at 151.13 69.85 0)
+			(uuid "dc15a0ae-048d-450c-97df-8bc5217b963c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_PWM" output
+			(at 151.13 85.09 0)
+			(uuid "caba6f33-a038-4cba-8bf1-2828f9ff4a60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 80.01 99.06 180)
+			(uuid "146af3b8-5722-41c5-a2dd-b1f8a1719bb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 80.01 101.6 180)
+			(uuid "83d65a2b-2cfc-413a-adcd-e06948bdf6d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_BTN_CLOSED" input
+			(at 151.13 100.33 0)
+			(uuid "c4e6ed0b-8fe0-4b1e-a39b-4e7dc1224088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_BTN_OPEN" input
+			(at 151.13 102.87 0)
+			(uuid "18d24171-defd-47f9-9743-bbb989821848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_DIAGA" input
+			(at 151.13 118.11 0)
+			(uuid "b7263c32-f09b-48a7-9d6d-671e3750c923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_DIAGB" input
+			(at 151.13 115.57 0)
+			(uuid "37e478ad-b4e2-4038-be42-307a87941f4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_INA" output
+			(at 151.13 110.49 0)
+			(uuid "4cb60224-2926-4089-91d4-5a77bf565b60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_INB" output
+			(at 151.13 113.03 0)
+			(uuid "943d158c-0db3-490b-b6df-2e53059eea25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_LIMIT_CLOSE" input
+			(at 151.13 97.79 0)
+			(uuid "3ad2c4aa-7203-48d1-a07d-15c9b22ddb3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_LIMIT_OPEN" input
+			(at 151.13 95.25 0)
+			(uuid "06258486-dbbc-41f4-97d9-430744f46ad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_LOCK_SW" input
+			(at 151.13 105.41 0)
+			(uuid "0246cf2c-92dc-4fc2-a197-b900ecb3fed2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_PWM" output
+			(at 151.13 120.65 0)
+			(uuid "7b486532-478a-495c-ae1b-ced261991827")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_UNLOCK_SW" input
+			(at 151.13 107.95 0)
+			(uuid "91a90d18-4042-46f4-84d2-7f49068f0f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 143.51)
+		(size 43.18 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3545,7 +4151,7 @@
 		)
 		(uuid "85b10b44-f8b7-4b58-879f-bd15e6c8e976")
 		(property "Sheetname" "INPUTS"
-			(at 76.2 74.2184 0)
+			(at 91.44 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +4160,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUTS.kicad_sch"
-			(at 76.2 103.4546 0)
+			(at 91.44 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +4169,7 @@
 			)
 		)
 		(pin "MCLR" bidirectional
-			(at 119.38 76.2 0)
+			(at 113.03 143.51 90)
 			(uuid "8f4a17a4-9eb4-42b5-b004-ac2b3c24fdbd")
 			(effects
 				(font
@@ -3573,18 +4179,38 @@
 			)
 		)
 		(pin "WIN_BTN_DOWN" output
-			(at 119.38 83.82 0)
+			(at 91.44 162.56 180)
 			(uuid "945e4f8f-f42c-4fdd-904d-380ac6f8e210")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "WIN_BTN_UP" output
-			(at 119.38 87.63 0)
+			(at 91.44 160.02 180)
 			(uuid "608e6359-541b-4cec-9c77-cd0f2701a78e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIN_LIMIT" output
+			(at 91.44 166.37 180)
+			(uuid "f4440e96-2f5e-4ec3-b38e-dd93906585f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_BTN_CLOSED" output
+			(at 134.62 162.56 0)
+			(uuid "684deefb-cb8b-4e5d-b73f-ffd9e6af72fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,9 +4218,29 @@
 				(justify right)
 			)
 		)
-		(pin "WIN_LIMIT" output
-			(at 119.38 92.71 0)
-			(uuid "f4440e96-2f5e-4ec3-b38e-dd93906585f8")
+		(pin "DOOR_BTN_OPEN" output
+			(at 134.62 160.02 0)
+			(uuid "59c03b2f-c0bb-4f26-bb5c-08efc99273ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_LOCK_SW" output
+			(at 134.62 165.1 0)
+			(uuid "d30377d4-9a9f-45ff-abbf-b577f9576d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOOR_UNLOCK_SW" output
+			(at 134.62 167.64 0)
+			(uuid "66ea82a1-9ffb-48f0-816d-61ebe886377e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,8 +4257,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 20.32)
-		(size 40.64 31.75)
+		(at 58.42 26.67)
+		(size 43.18 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3625,9 +4271,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a8709361-50f1-45a9-9990-4a11f8b46576")
-		(property "Sheetname" "ETAPA DE ALIMENTACIÓ"
-			(at 72.39 19.6084 0)
+		(uuid "b8d025f8-884e-44af-b29b-4fb2140b95b4")
+		(property "Sheetname" "ETAPA DE ALIMENTACIO"
+			(at 58.42 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,8 +4281,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETAPA_POTENCIA.kicad_sch"
-			(at 72.39 52.6546 0)
+		(property "Sheetfile" "ETAPA_ALIMENTACIO_sch.kicad_sch"
+			(at 58.42 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,9 +4290,17 @@
 				(justify left top)
 			)
 		)
+		(property "Field2" ""
+			(at 58.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "VBAT_12V" input
-			(at 72.39 29.21 180)
-			(uuid "a8a83b84-c5b5-4585-9128-df3140610557")
+			(at 58.42 30.48 180)
+			(uuid "7a750dcd-4e62-484f-a270-bd285d25d774")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,8 +4309,18 @@
 			)
 		)
 		(pin "VBAT_PROT" output
-			(at 113.03 45.72 0)
-			(uuid "309b215d-7f60-4cf5-8f8d-0770d09efaa7")
+			(at 101.6 45.72 0)
+			(uuid "44b3ea69-33d9-4f26-a05a-59a576c73772")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 101.6 48.26 0)
+			(uuid "2d3ce07e-d2db-4298-80a2-4b90b5ca2b52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,139 +4331,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 88.9 123.19)
-		(size 50.8 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b6effc59-48f1-49a7-95ce-6407716902cc")
-		(property "Sheetname" "DRIVER DEL MOTOR FINESTRA"
-			(at 88.9 122.4784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOTOR_FINESTRA.kicad_sch"
-			(at 88.9 154.2546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VBAT_PROT" input
-			(at 88.9 128.27 180)
-			(uuid "e4403b7b-71bb-404e-8303-9d07ed6889b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_CURRENT_ADC" output
-			(at 139.7 125.73 0)
-			(uuid "fabd1371-c1c8-4e1f-9154-e80574b2368b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_DIAGA" output
-			(at 139.7 129.54 0)
-			(uuid "4e0a0c45-d10a-441e-b172-996cb6a8173c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_DIAGB" output
-			(at 139.7 132.08 0)
-			(uuid "d8dc2ed8-21c2-46c3-9202-21b6c5acd786")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_INA" input
-			(at 88.9 143.51 180)
-			(uuid "0ac64b47-2d29-4cf8-8c32-6fb653889817")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_INB" input
-			(at 88.9 146.05 180)
-			(uuid "fca68375-b497-4000-986f-2c72b53df252")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_PWM" input
-			(at 88.9 148.59 180)
-			(uuid "b26c9693-d7da-4950-ab00-8af293dd3632")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_OUTA" output
-			(at 139.7 144.78 0)
-			(uuid "22ae7a89-4451-4f51-84f6-58c4ba0bc9d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIN_OUTB" output
-			(at 139.7 148.59 0)
-			(uuid "6ce63566-4350-4df4-b772-bfae7561d230")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(page "7")
+					(page "8")
 				)
 			)
 		)

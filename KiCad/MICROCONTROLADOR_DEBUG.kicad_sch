@@ -361,16 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Microchip"
+			(property "Description" "16-bit Microcontrollers"
 				(at 0 0 0)
 				(effects
 					(font
@@ -380,7 +371,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "16-bit Microcontrollers"
+			(property "MF" "Microchip"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3589,7 +3580,7 @@
 		(uuid "0168685c-e96e-4e22-a43f-97563c211c35")
 	)
 	(hierarchical_label "DOOR_INB"
-		(shape input)
+		(shape output)
 		(at 210.82 48.26 0)
 		(effects
 			(font
@@ -3687,7 +3678,7 @@
 		)
 		(uuid "380043a9-8a8f-4540-9ab0-a3c8f19609c3")
 	)
-	(hierarchical_label "DOOR_BTN_CLOSE"
+	(hierarchical_label "DOOR_BTN_CLOSED"
 		(shape input)
 		(at 93.98 73.66 180)
 		(effects
@@ -3732,7 +3723,7 @@
 		(uuid "4faacd82-9e58-4528-929f-48bb93deef8d")
 	)
 	(hierarchical_label "CAN_TX"
-		(shape input)
+		(shape output)
 		(at 210.82 53.34 0)
 		(effects
 			(font
@@ -3798,7 +3789,7 @@
 		(uuid "7fa030c3-02d4-4411-bcc5-72d5baadc3b5")
 	)
 	(hierarchical_label "DOOR_INA"
-		(shape input)
+		(shape output)
 		(at 210.82 43.18 0)
 		(effects
 			(font
@@ -3886,7 +3877,7 @@
 		(uuid "da4703af-cadf-4ac4-9522-d5f4906b561a")
 	)
 	(hierarchical_label "DOOR_PWM"
-		(shape input)
+		(shape output)
 		(at 210.82 40.64 0)
 		(effects
 			(font

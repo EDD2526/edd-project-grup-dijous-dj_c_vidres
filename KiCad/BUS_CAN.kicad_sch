@@ -1274,6 +1274,10 @@
 		(at 173.99 95.25)
 		(uuid "b6224ba7-eaed-462b-b5c0-4e040e1cb903")
 	)
+	(no_connect
+		(at 181.61 105.41)
+		(uuid "e0026e23-f94b-4cb6-91ec-f7828f55a329")
+	)
 	(wire
 		(pts
 			(xy 166.37 95.25) (xy 166.37 92.71)
@@ -1584,7 +1588,7 @@
 		)
 		(uuid "3c125d94-7c53-47e1-94b0-7b71e61b5686")
 	)
-	(hierarchical_label "CANTX"
+	(hierarchical_label "CAN_TX"
 		(shape bidirectional)
 		(at 128.27 87.63 180)
 		(effects
@@ -1606,7 +1610,7 @@
 		)
 		(uuid "256bc1a4-b33e-47de-b71c-743f4f88f6a1")
 	)
-	(hierarchical_label "CANRX"
+	(hierarchical_label "CAN_RX"
 		(shape bidirectional)
 		(at 128.27 90.17 180)
 		(effects
@@ -1785,7 +1789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.19 93.472 90)
 			(effects
 				(font
@@ -1853,7 +1857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 137.16 76.5048 0)
 			(effects
 				(font
@@ -1920,7 +1924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 155.702 91.44 90)
 			(effects
 				(font
