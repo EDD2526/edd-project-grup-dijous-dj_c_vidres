@@ -2040,7 +2040,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac64d273-7c5c-42b1-921a-f94771dff013")
 		(property "Reference" "J2"
 			(at 186.69 88.8999 0)
@@ -2052,7 +2051,7 @@
 			)
 		)
 		(property "Value" "DE9_Pins_MountingHoles"
-			(at 186.69 91.4399 0)
+			(at 186.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

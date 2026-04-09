@@ -2129,7 +2129,7 @@
 		)
 		(uuid "3d02d150-8a5c-4705-b1ac-3eb7eeb50c0d")
 	)
-	(hierarchical_label "WIN_OUTB"
+	(hierarchical_label "WIN_MOTOR_B"
 		(shape output)
 		(at 64.77 72.39 0)
 		(effects
@@ -2173,7 +2173,7 @@
 		)
 		(uuid "795badc4-f566-426e-bab1-6a987bca529f")
 	)
-	(hierarchical_label "DOOR_OUTB"
+	(hierarchical_label "DOOR_MOTOR_B"
 		(shape output)
 		(at 173.99 71.12 0)
 		(effects
@@ -2195,7 +2195,7 @@
 		)
 		(uuid "ae09103c-b20d-4057-8ea5-a74da4009901")
 	)
-	(hierarchical_label "DOOR_OUTA"
+	(hierarchical_label "DOOR_MOTOR_A"
 		(shape output)
 		(at 173.99 68.58 0)
 		(effects
@@ -2228,7 +2228,7 @@
 		)
 		(uuid "e34b6bd9-5dcc-4e8f-a462-4354b22f38da")
 	)
-	(hierarchical_label "WIN_OUTA"
+	(hierarchical_label "WIN_MOTOR_A"
 		(shape output)
 		(at 64.77 69.85 0)
 		(effects

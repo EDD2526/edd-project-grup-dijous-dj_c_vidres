@@ -508,7 +508,7 @@
 	)
 	(text "MCLR"
 		(exclude_from_sim no)
-		(at 40.64 24.384 0)
+		(at 38.1 24.384 0)
 		(effects
 			(font
 				(size 3 3)
@@ -567,7 +567,7 @@
 		(uuid "95716595-195e-499b-bbb3-0baacf749b0e")
 	)
 	(junction
-		(at 45.72 44.45)
+		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9795d1c3-67b5-41ee-8f0e-9095c7747c97")
@@ -606,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 59.69 44.45)
+			(xy 54.61 44.45) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 45.72 44.45)
+			(xy 40.64 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 41.91) (xy 45.72 44.45)
+			(xy 43.18 41.91) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 44.45) (xy 35.56 44.45)
+			(xy 25.4 44.45) (xy 33.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 46.99 44.45)
+			(xy 43.18 44.45) (xy 44.45 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1143,7 @@
 	)
 	(hierarchical_label "MCLR"
 		(shape output)
-		(at 45.72 41.91 90)
+		(at 43.18 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 27.94 44.45 0)
+		(at 25.4 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1365,7 +1365,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c6a7771-c6d9-4503-b2bb-5fdfdc7d29db")
 		(property "Reference" "#PWR022"
-			(at 27.94 48.26 0)
+			(at 25.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1374,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 27.94 39.37 0)
+			(at 25.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 44.45 90)
+		(at 36.83 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2439,7 +2439,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6965539-e946-4c37-b534-417a1eed4012")
 		(property "Reference" "R_MCLR1"
-			(at 39.37 38.1 90)
+			(at 36.83 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2447,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 39.37 40.64 90)
+			(at 36.83 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 39.37 46.228 90)
+			(at 36.83 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 44.45 0)
+			(at 36.83 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 44.45 0)
+			(at 36.83 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3037,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 44.45 0)
+		(at 49.53 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3046,7 +3046,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed7ef386-4f70-4dd7-8c5e-35dd5debac07")
 		(property "Reference" "SW_UP1"
-			(at 52.07 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 			)
 		)
 		(property "Value" "SW_MCLR"
-			(at 52.07 39.37 0)
+			(at 49.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 52.07 39.37 0)
+			(at 49.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 39.37 0)
+			(at 49.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 44.45 0)
+			(at 49.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 44.45 0)
+		(at 57.15 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3181,7 +3181,7 @@
 		(fields_autoplaced yes)
 		(uuid "f380cd64-e5ba-4ef3-ad9f-1060f70c9c20")
 		(property "Reference" "#PWR023"
-			(at 59.69 50.8 0)
+			(at 57.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 49.53 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 44.45 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 44.45 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 44.45 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1138,7 +1138,7 @@
 		)
 		(uuid "ee11c298-c850-41d6-b207-4b7d1967cde0")
 	)
-	(global_label "WIN_OUTA"
+	(global_label "WIN_MOTOR_B"
 		(shape output)
 		(at 248.92 107.95 0)
 		(effects
@@ -1798,7 +1798,7 @@
 			)
 		)
 	)
-	(global_label "DOOR_OUTA"
+	(global_label "DOOR_MOTOR_A"
 		(shape output)
 		(at 201.93 104.14 180)
 		(effects
@@ -2338,7 +2338,7 @@
 			)
 		)
 	)
-	(global_label "WIN_OUTB"
+	(global_label "WIN_MOTOR_A"
 		(shape output)
 		(at 248.92 104.14 0)
 		(effects
@@ -2418,7 +2418,7 @@
 			)
 		)
 	)
-	(global_label "DOOR_OUTB"
+	(global_label "DOOR_MOTOR_B"
 		(shape output)
 		(at 201.93 107.95 180)
 		(effects
@@ -3470,7 +3470,7 @@
 				(justify left)
 			)
 		)
-		(pin "DOOR_OUTA" output
+		(pin "DOOR_MOTOR_A" output
 			(at 201.93 104.14 180)
 			(uuid "25a5e430-468d-4911-98bc-71273693d55a")
 			(effects
@@ -3480,7 +3480,7 @@
 				(justify left)
 			)
 		)
-		(pin "DOOR_OUTB" output
+		(pin "DOOR_MOTOR_B" output
 			(at 201.93 107.95 180)
 			(uuid "2b0c8407-4aff-4381-b159-32124b3bbc3a")
 			(effects
@@ -3560,7 +3560,7 @@
 				(justify right)
 			)
 		)
-		(pin "WIN_OUTA" output
+		(pin "WIN_MOTOR_A" output
 			(at 248.92 107.95 0)
 			(uuid "414c9956-e509-4977-95e1-fa0ff0f1c85c")
 			(effects
@@ -3570,7 +3570,7 @@
 				(justify right)
 			)
 		)
-		(pin "WIN_OUTB" output
+		(pin "WIN_MOTOR_B" output
 			(at 248.92 104.14 0)
 			(uuid "f59b8cea-0bd5-4581-a6d8-cbaee44eabb8")
 			(effects
