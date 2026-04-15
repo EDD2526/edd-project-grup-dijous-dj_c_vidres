@@ -1362,6 +1362,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "MOTOR DE FINESTRA"
 		(exclude_from_sim no)
@@ -1394,6 +1495,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "331b1956-0cbc-4cf6-b539-1d6912378048")
+	)
+	(junction
+		(at 36.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3778abeb-d83d-4fcd-a92f-14c2b88aa3c0")
 	)
 	(junction
 		(at 38.1 93.98)
@@ -1495,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 53.34) (xy 36.83 57.15)
+			(xy 36.83 53.34) (xy 36.83 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1632,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "37e6836d-ac5a-4142-9f2f-7aa8a1fb45a4")
+	)
+	(wire
+		(pts
+			(xy 36.83 55.88) (xy 36.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fe727c-221a-4bd5-a3aa-376d1e90e3ff")
 	)
 	(wire
 		(pts
@@ -2377,6 +2494,71 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
 					(reference "R_DIAGA_DOOR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1743c3e1-629f-4530-846f-916b33d88613")
+		(property "Reference" "#FLG05"
+			(at 34.925 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9335280-00e2-4cf0-9764-b16ba933dde5")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
