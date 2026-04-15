@@ -1158,46 +1158,6 @@
 			)
 		)
 	)
-	(global_label "DOOR_LOCK_SW"
-		(shape input)
-		(at 153.67 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "025d13d4-fc42-45a9-a7e0-4cfa9fd6e64f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_LOCK_SW"
-		(shape output)
-		(at 248.92 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03e27e29-aaaa-4b32-9c7a-02cd288632c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOOR_MOTOR_A"
 		(shape output)
 		(at 26.67 77.47 0)
@@ -1290,26 +1250,6 @@
 		(uuid "14011847-a9f9-47a2-b0fb-e09e594b689e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 248.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_BTN_OPEN"
-		(shape input)
-		(at 153.67 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "150c2ad2-533c-4aba-99ba-00a1fb4dc6a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,26 +1538,6 @@
 			)
 		)
 	)
-	(global_label "DOOR_UNLOCK_SW"
-		(shape output)
-		(at 248.92 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48a455b2-dcb1-4eb3-a610-3bc6536c0262")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_TX"
 		(shape output)
 		(at 172.72 58.42 0)
@@ -1670,26 +1590,6 @@
 		(uuid "4df01c0d-2a3a-459c-9bac-ebe711bacfde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_UNLOCK_SW"
-		(shape input)
-		(at 153.67 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58ef7f8c-ec79-4ada-a6c2-fc3590df0306")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,26 +1810,6 @@
 		(uuid "772b6bae-74e7-4a31-8048-829fc29c6fe3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOOR_BTN_CLOSED"
-		(shape input)
-		(at 153.67 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79913557-2d7d-4b25-ba7d-691babbb9267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,26 +2278,6 @@
 			)
 		)
 	)
-	(global_label "DOOR_BTN_CLOSED"
-		(shape output)
-		(at 248.92 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4e8c597-de6e-4946-ac3d-2e38c705dd03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOOR_MOTOR_B"
 		(shape output)
 		(at 201.93 107.95 180)
@@ -2558,26 +2418,6 @@
 			)
 		)
 	)
-	(global_label "DOOR_BTN_OPEN"
-		(shape output)
-		(at 248.92 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e22b0836-688b-4f80-8247-760715c9b4cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RFID_MISO"
 		(shape input)
 		(at 82.55 99.06 180)
@@ -2594,6 +2434,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_LOCK{slash}UNLOCK"
+		(shape input)
+		(at 153.67 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec6a7a18-ad65-4408-9d50-6ad7a882d4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.6125 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2634,6 +2496,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_LOCK{slash}UNLOCK"
+		(shape output)
+		(at 248.92 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f300d38a-cdef-47fd-b753-45bee0d3c168")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.8625 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4036,26 +3920,6 @@
 				(justify left)
 			)
 		)
-		(pin "DOOR_BTN_CLOSED" input
-			(at 153.67 120.65 0)
-			(uuid "c4e6ed0b-8fe0-4b1e-a39b-4e7dc1224088")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_BTN_OPEN" input
-			(at 153.67 123.19 0)
-			(uuid "18d24171-defd-47f9-9743-bbb989821848")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DOOR_DIAGA" input
 			(at 153.67 138.43 0)
 			(uuid "b7263c32-f09b-48a7-9d6d-671e3750c923")
@@ -4116,16 +3980,6 @@
 				(justify right)
 			)
 		)
-		(pin "DOOR_LOCK_SW" input
-			(at 153.67 125.73 0)
-			(uuid "0246cf2c-92dc-4fc2-a197-b900ecb3fed2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DOOR_PWM" output
 			(at 153.67 140.97 0)
 			(uuid "7b486532-478a-495c-ae1b-ced261991827")
@@ -4136,9 +3990,9 @@
 				(justify right)
 			)
 		)
-		(pin "DOOR_UNLOCK_SW" input
-			(at 153.67 128.27 0)
-			(uuid "91a90d18-4042-46f4-84d2-7f49068f0f39")
+		(pin "DOOR_LOCK{slash}UNLOCK" input
+			(at 153.67 120.65 0)
+			(uuid "d98491cc-8faa-4261-be75-f77776755931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,39 +4082,9 @@
 				(justify left)
 			)
 		)
-		(pin "DOOR_BTN_CLOSED" output
-			(at 248.92 144.78 0)
-			(uuid "684deefb-cb8b-4e5d-b73f-ffd9e6af72fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_BTN_OPEN" output
-			(at 248.92 142.24 0)
-			(uuid "59c03b2f-c0bb-4f26-bb5c-08efc99273ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_LOCK_SW" output
-			(at 248.92 147.32 0)
-			(uuid "d30377d4-9a9f-45ff-abbf-b577f9576d1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DOOR_UNLOCK_SW" output
-			(at 248.92 149.86 0)
-			(uuid "66ea82a1-9ffb-48f0-816d-61ebe886377e")
+		(pin "DOOR_LOCK{slash}UNLOCK" output
+			(at 248.92 146.05 0)
+			(uuid "458917b8-b1e9-4680-9c14-c36bb6fce46f")
 			(effects
 				(font
 					(size 1.27 1.27)
