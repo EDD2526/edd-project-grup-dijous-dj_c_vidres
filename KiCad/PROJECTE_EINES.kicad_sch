@@ -1582,26 +1582,6 @@
 			)
 		)
 	)
-	(global_label "WIN_LIMIT"
-		(shape output)
-		(at 205.74 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2977a776-00e4-49cf-ab17-c31f07c3fabf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_TX"
 		(shape bidirectional)
 		(at 124.46 48.26 180)
@@ -4268,16 +4248,6 @@
 		(pin "WIN_BTN_UP" output
 			(at 205.74 142.24 180)
 			(uuid "608e6359-541b-4cec-9c77-cd0f2701a78e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIN_LIMIT" output
-			(at 205.74 148.59 180)
-			(uuid "f4440e96-2f5e-4ec3-b38e-dd93906585f8")
 			(effects
 				(font
 					(size 1.27 1.27)

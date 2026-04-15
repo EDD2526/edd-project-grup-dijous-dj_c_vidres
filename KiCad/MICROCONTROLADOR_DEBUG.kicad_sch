@@ -3351,12 +3351,6 @@
 		)
 	)
 	(junction
-		(at 93.98 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17bfc612-ec01-4897-b4b6-3172d1fc6b13")
-	)
-	(junction
 		(at 58.42 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3385,6 +3379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82ce938d-7aa8-4114-ab6c-d0f60a10b55f")
+	)
+	(junction
+		(at 93.98 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83105c8c-056a-4eb1-9a80-6a55d082e567")
 	)
 	(junction
 		(at 88.9 129.54)
@@ -3435,32 +3435,32 @@
 		(uuid "fe8f551f-68ef-48c7-8bef-1b5c2d6784ae")
 	)
 	(no_connect
-		(at 93.98 71.12)
-		(uuid "0592a5da-4438-4890-a9f0-5f15ca35f18e")
-	)
-	(no_connect
-		(at 210.82 63.5)
-		(uuid "19c3dfbe-9410-42df-91fb-67bfc1668e51")
+		(at 93.98 111.76)
+		(uuid "06e47acf-2fdb-48b1-acb1-da9e26804a09")
 	)
 	(no_connect
 		(at 93.98 60.96)
-		(uuid "354c472c-02f1-4024-a6f6-a0f7d1646a37")
-	)
-	(no_connect
-		(at 210.82 60.96)
-		(uuid "3cbeb21d-4388-4775-a35a-9e446e5ee0d4")
-	)
-	(no_connect
-		(at 93.98 73.66)
-		(uuid "984dc95d-5828-4b05-aab0-3b7b1f2fadcc")
+		(uuid "1437b001-4a60-4e94-9233-5e4edf4bad71")
 	)
 	(no_connect
 		(at 93.98 76.2)
-		(uuid "b9fe100e-8ef0-4881-b547-62834e612b62")
+		(uuid "232db398-589c-4900-b90b-0a00a8f134b5")
 	)
 	(no_connect
-		(at 210.82 45.72)
-		(uuid "d72953a3-50d4-4a6b-8587-3dd077da7cd1")
+		(at 93.98 106.68)
+		(uuid "2472b845-86df-4a89-ac18-7ecc45d69883")
+	)
+	(no_connect
+		(at 93.98 114.3)
+		(uuid "603acd09-21c8-4ab4-959a-704a2c3cd0b2")
+	)
+	(no_connect
+		(at 93.98 109.22)
+		(uuid "dbf5d1a5-c0a7-4a09-b46b-3d1eff0b6cd5")
+	)
+	(no_connect
+		(at 93.98 58.42)
+		(uuid "f29037a4-0a62-4904-a590-aa22381e4fb6")
 	)
 	(wire
 		(pts
@@ -3864,29 +3864,29 @@
 	)
 	(hierarchical_label "DOOR_DIAGB"
 		(shape input)
-		(at 210.82 58.42 0)
+		(at 93.98 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0168685c-e96e-4e22-a43f-97563c211c35")
 	)
 	(hierarchical_label "DOOR_INB"
 		(shape output)
-		(at 210.82 48.26 0)
+		(at 93.98 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "02bf9917-37bc-4105-a2d5-08f45ef3a47e")
 	)
 	(hierarchical_label "WIN_BTN_UP"
 		(shape input)
-		(at 93.98 101.6 180)
+		(at 93.98 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,18 +3897,18 @@
 	)
 	(hierarchical_label "WIN_CURRENT_ADC"
 		(shape input)
-		(at 93.98 116.84 180)
+		(at 210.82 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0be17942-e74d-4867-887d-c0fde5d82c3e")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 210.82 50.8 0)
+		(at 210.82 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 	)
 	(hierarchical_label "WIN_DIAGB"
 		(shape input)
-		(at 93.98 121.92 180)
+		(at 93.98 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,7 +3930,7 @@
 	)
 	(hierarchical_label "RFID_CS"
 		(shape output)
-		(at 93.98 58.42 180)
+		(at 93.98 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,18 +3941,18 @@
 	)
 	(hierarchical_label "UART_RX"
 		(shape input)
-		(at 93.98 91.44 180)
+		(at 210.82 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "380043a9-8a8f-4540-9ab0-a3c8f19609c3")
 	)
 	(hierarchical_label "RFID_MOSI"
 		(shape output)
-		(at 93.98 96.52 180)
+		(at 93.98 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,7 +3963,7 @@
 	)
 	(hierarchical_label "WIN_BTN_DOWN"
 		(shape input)
-		(at 93.98 104.14 180)
+		(at 93.98 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +3974,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 210.82 53.34 0)
+		(at 210.82 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3996,18 +3996,18 @@
 	)
 	(hierarchical_label "WIN_PWM"
 		(shape output)
-		(at 93.98 109.22 180)
+		(at 210.82 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "71d52e10-ccdb-4335-aed2-4dcaeaf9ecd9")
 	)
 	(hierarchical_label "RFID_SCK"
 		(shape output)
-		(at 93.98 99.06 180)
+		(at 93.98 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,7 +4018,7 @@
 	)
 	(hierarchical_label "RFID_RST"
 		(shape output)
-		(at 93.98 68.58 180)
+		(at 93.98 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4029,7 +4029,7 @@
 	)
 	(hierarchical_label "DOOR_INA"
 		(shape output)
-		(at 210.82 43.18 0)
+		(at 210.82 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4051,7 +4051,7 @@
 	)
 	(hierarchical_label "RFID_MISO"
 		(shape input)
-		(at 93.98 93.98 180)
+		(at 93.98 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 	)
 	(hierarchical_label "DOOR_LOCK{slash}UNLOCK"
 		(shape input)
-		(at 93.98 78.74 180)
+		(at 93.98 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4073,18 +4073,18 @@
 	)
 	(hierarchical_label "WIN_DIAGA"
 		(shape input)
-		(at 93.98 119.38 180)
+		(at 210.82 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b980d582-d876-4fa9-bd6c-94b521c1dcf8")
 	)
 	(hierarchical_label "WIN_INB"
 		(shape output)
-		(at 93.98 114.3 180)
+		(at 93.98 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 	)
 	(hierarchical_label "WIN_INA"
 		(shape output)
-		(at 93.98 111.76 180)
+		(at 93.98 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4106,7 +4106,7 @@
 	)
 	(hierarchical_label "DOOR_DIAGA"
 		(shape input)
-		(at 210.82 55.88 0)
+		(at 210.82 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4117,7 +4117,7 @@
 	)
 	(hierarchical_label "DOOR_PWM"
 		(shape output)
-		(at 210.82 40.64 0)
+		(at 210.82 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 	)
 	(hierarchical_label "WIN_LIMIT"
 		(shape input)
-		(at 93.98 106.68 180)
+		(at 93.98 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4150,12 +4150,12 @@
 	)
 	(hierarchical_label "UART_TX"
 		(shape output)
-		(at 93.98 88.9 180)
+		(at 210.82 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fae3b767-6eba-4e5a-aec1-acae0e9f8c8c")
 	)
