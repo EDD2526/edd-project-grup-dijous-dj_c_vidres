@@ -578,6 +578,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1177,6 +1302,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 44.45) (xy 34.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651ede8b-cdcd-449c-90e3-e5b40a754a24")
+	)
+	(wire
+		(pts
 			(xy 40.64 26.67) (xy 40.64 27.94)
 		)
 		(stroke
@@ -1234,16 +1369,6 @@
 			(type default)
 		)
 		(uuid "ecb5143e-b38c-4a1b-9aa3-18a18b9e346c")
-	)
-	(wire
-		(pts
-			(xy 172.72 58.42) (xy 171.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee11c298-c850-41d6-b207-4b7d1967cde0")
 	)
 	(wire
 		(pts
@@ -1817,26 +1942,6 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 194.31 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6539d5b8-a5fc-4746-a787-c4e6a10ab3ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOOR_INA"
 		(shape output)
 		(at 153.67 124.46 0)
@@ -2237,26 +2342,6 @@
 			)
 		)
 	)
-	(global_label "VBAT_12V"
-		(shape input)
-		(at 27.94 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c328918b-d91b-4a86-8191-a008837313e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_RX"
 		(shape output)
 		(at 172.72 48.26 0)
@@ -2377,26 +2462,6 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 40.64 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2e2bdeb-b101-46a9-be17-f76b0ea75eec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOOR_MOTOR_B"
 		(shape output)
 		(at 201.93 107.95 180)
@@ -2489,26 +2554,6 @@
 		(uuid "e025b2e0-4032-44be-85c4-f46006b7c158")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_3V3"
-		(shape output)
-		(at 104.14 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0720d27-4d1c-4cd8-a7c7-0d87bd9ae943")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,26 +2684,6 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 118.11 83.82 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8510877-81e5-4db8-a8eb-b97bae3b602c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOOR_PWM"
 		(shape output)
 		(at 153.67 134.62 0)
@@ -2679,23 +2704,69 @@
 			)
 		)
 	)
-	(global_label "VBAT_12V"
-		(shape input)
-		(at 60.96 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe127507-eba5-4aac-aac4-d8e16ea3d7db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 49.53 0)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068b40a1-ccba-48b4-be4f-0b21c96a5111")
+		(property "Reference" "#PWR03"
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 40.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79215834-e024-4c9a-a227-581011541f1e")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(reference "#PWR03")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3110,72 +3181,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6fe7a67-254d-488d-b78c-a37941e8e13f")
-		(property "Reference" "#PWR03"
-			(at 40.64 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7388eb7a-0c1d-410c-9d2f-c5b974074308")
-		)
-		(instances
-			(project ""
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 21.59 77.47 0)
 		(unit 1)
@@ -3238,6 +3243,72 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
 					(reference "J_MOTOR_DOOR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 34.29 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d014c479-c706-4ae6-8d41-a9d27e1d43f0")
+		(property "Reference" "#PWR051"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "818f9147-6420-4833-81ec-091d876519b9")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e12b6235-efe0-44e7-9fe3-fe333127e103")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 22.86 92.075 0)
 			(effects
 				(font
@@ -3370,7 +3441,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3728,16 +3799,6 @@
 				(justify right)
 			)
 		)
-		(pin "VDD_3V3" input
-			(at 194.31 36.83 180)
-			(uuid "4c91efef-6800-40c4-84f8-42fd09879d86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "WIN_LIMIT" output
 			(at 194.31 44.45 180)
 			(uuid "d36a2ce5-8e4e-4278-9e61-10bc26ea8c36")
@@ -3970,16 +4031,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "VDD_3V3" input
-			(at 118.11 83.82 90)
-			(uuid "450423a6-78ab-4f73-8b0b-afa3a7a2d8b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "WIN_BTN_DOWN" input
@@ -4293,29 +4344,9 @@
 				)
 			)
 		)
-		(pin "VBAT_12V" input
-			(at 60.96 49.53 180)
-			(uuid "7a750dcd-4e62-484f-a270-bd285d25d774")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VBAT_PROT" output
 			(at 104.14 64.77 0)
 			(uuid "44b3ea69-33d9-4f26-a05a-59a576c73772")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_3V3" output
-			(at 104.14 67.31 0)
-			(uuid "2d3ce07e-d2db-4298-80a2-4b90b5ca2b52")
 			(effects
 				(font
 					(size 1.27 1.27)
