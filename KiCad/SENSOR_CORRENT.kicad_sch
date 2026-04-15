@@ -1281,12 +1281,6 @@
 		(color 0 0 0 0)
 		(uuid "eaca8f31-e4f6-41af-8dcc-8970b0c59eb5")
 	)
-	(junction
-		(at 76.2 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeb9d3e4-8047-41ec-a37b-aa5cfaba8037")
-	)
 	(no_connect
 		(at 20.32 62.23)
 		(uuid "1c17e6b3-8587-4d6c-9469-5ce934ceacc6")
@@ -6743,21 +6737,21 @@
 		(fields_autoplaced yes)
 		(uuid "433238d4-445f-4ca3-80f0-0dbd3ee29753")
 		(property "Reference" "R5"
-			(at 73.66 35.5599 0)
+			(at 78.74 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 73.66 38.0999 0)
+		(property "Value" "10k"
+			(at 78.74 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7114,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 59.69 48.2599 0)
 			(effects
 				(font
