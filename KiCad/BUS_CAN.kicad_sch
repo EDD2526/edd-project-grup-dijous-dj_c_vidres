@@ -1788,6 +1788,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1851,6 +1857,12 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/119ce145-2c93-4544-b106-e85ec51fdc64"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1942,6 +1954,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2005,6 +2023,12 @@
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/119ce145-2c93-4544-b106-e85ec51fdc64"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2075,6 +2099,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2140,6 +2170,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2169,7 +2205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 195.58 52.07 0)
 			(effects
 				(font
@@ -2229,6 +2265,12 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/119ce145-2c93-4544-b106-e85ec51fdc64"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
 					(reference "J2")
 					(unit 1)
 				)
@@ -2301,6 +2343,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2368,6 +2416,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2397,7 +2451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -2457,6 +2511,12 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/119ce145-2c93-4544-b106-e85ec51fdc64"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
 					(reference "J1")
 					(unit 1)
 				)
@@ -2527,6 +2587,12 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2593,6 +2659,18 @@
 					(unit 1)
 				)
 			)
+			(project "BUS_CAN"
+				(path "/d214e8f9-d2e5-4815-9ff0-dfe8e2320eb5"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
