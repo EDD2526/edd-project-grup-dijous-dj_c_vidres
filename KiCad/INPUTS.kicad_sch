@@ -1440,7 +1440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10cfcf55-d540-4a24-b91a-43b856f5bf05")
-		(property "Reference" "R_BTNUP?"
+		(property "Reference" "R_BTNUP1"
 			(at 94.488 31.75 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R_BTNUP?")
+					(reference "R_BTNUP1")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bdfcc7f-220b-4fd6-89a0-c4a7bf264ecf")
-		(property "Reference" "R_Lock/Unlock?"
+		(property "Reference" "R_Lock/Unlock1"
 			(at 164.084 34.036 90)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R_Lock/Unlock?")
+					(reference "R_Lock/Unlock1")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "681a5573-3814-4dc8-8636-35eb15f509a4")
-		(property "Reference" "R_BTNDOWN?"
+		(property "Reference" "R_BTNDOWN1"
 			(at 99.314 45.212 0)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R_BTNDOWN?")
+					(reference "R_BTNDOWN1")
 					(unit 1)
 				)
 			)
@@ -1974,7 +1974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0d1473-0db1-43f4-a736-63ca6eb236f2")
-		(property "Reference" "SW?"
+		(property "Reference" "SW3"
 			(at 177.8 30.48 0)
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW?")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8040ca27-dbaf-4b38-974b-7d26ffec0e96")
-		(property "Reference" "SW?"
+		(property "Reference" "SW2"
 			(at 86.36 35.56 0)
 			(effects
 				(font
@@ -2109,7 +2109,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2191,7 +2191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e68fae6-e702-45de-b7e8-34eabd4b2fe2")
-		(property "Reference" "R_LIMIT?"
+		(property "Reference" "R_LIMIT1"
 			(at 91.44 68.58 90)
 			(effects
 				(font
@@ -2243,7 +2243,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R_LIMIT?")
+					(reference "R_LIMIT1")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6965539-e946-4c37-b534-417a1eed4012")
-		(property "Reference" "R_MCLR?"
+		(property "Reference" "R_MCLR1"
 			(at 33.02 36.83 90)
 			(effects
 				(font
@@ -2377,7 +2377,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "R_MCLR?")
+					(reference "R_MCLR1")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6296bb7-0eb3-4fc2-ba3d-4b8a12ec7b86")
-		(property "Reference" "SW_UP?"
+		(property "Reference" "SW_UP2"
 			(at 104.14 67.31 0)
 			(effects
 				(font
@@ -2446,7 +2446,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP?")
+					(reference "SW_UP2")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed7ef386-4f70-4dd7-8c5e-35dd5debac07")
-		(property "Reference" "SW_UP?"
+		(property "Reference" "SW_UP1"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -2581,7 +2581,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
-					(reference "SW_UP?")
+					(reference "SW_UP1")
 					(unit 1)
 				)
 			)

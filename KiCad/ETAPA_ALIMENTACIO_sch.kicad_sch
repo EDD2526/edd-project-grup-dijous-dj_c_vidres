@@ -2245,7 +2245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01afc8c2-86a2-4946-aaec-efd93def4eff")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2316,7 +2316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ef89be-4755-4308-b685-746b3d986737")
-		(property "Reference" "COUT?"
+		(property "Reference" "COUT1"
 			(at 200.66 87.6299 0)
 			(effects
 				(font
@@ -2370,7 +2370,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "COUT?")
+					(reference "COUT1")
 					(unit 1)
 				)
 			)
@@ -2385,7 +2385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "214a0dbd-0dda-4905-9e53-fa8b8b9ed0c3")
-		(property "Reference" "C_INBUCK?"
+		(property "Reference" "C_INBUCK2"
 			(at 102.87 75.438 0)
 			(effects
 				(font
@@ -2439,7 +2439,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "C_INBUCK?")
+					(reference "C_INBUCK2")
 					(unit 1)
 				)
 			)
@@ -2455,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259a04d4-1bf6-4451-9f55-efc991fa3748")
-		(property "Reference" "F_PROT?"
+		(property "Reference" "F_PROT1"
 			(at 66.04 71.12 90)
 			(effects
 				(font
@@ -2507,7 +2507,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "F_PROT?")
+					(reference "F_PROT1")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d95f1fe-333e-42bb-8b4b-311545c35a5d")
-		(property "Reference" "CIN?"
+		(property "Reference" "CIN1"
 			(at 177.8 87.6299 0)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "CIN?")
+					(reference "CIN1")
 					(unit 1)
 				)
 			)
@@ -2592,7 +2592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3420252b-6702-4471-b2a9-2a87629e6e94")
-		(property "Reference" "C_OUTBUCK?"
+		(property "Reference" "C_OUTBUCK2"
 			(at 160.528 91.948 0)
 			(effects
 				(font
@@ -2646,7 +2646,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "C_OUTBUCK?")
+					(reference "C_OUTBUCK2")
 					(unit 1)
 				)
 			)
@@ -2662,7 +2662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3718b5de-ed44-4937-8273-e2759fc67256")
-		(property "Reference" "D_PROT?"
+		(property "Reference" "D_PROT1"
 			(at 77.7875 71.12 0)
 			(effects
 				(font
@@ -2714,7 +2714,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "D_PROT?")
+					(reference "D_PROT1")
 					(unit 1)
 				)
 			)
@@ -2730,7 +2730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b21704e-6d3d-4f68-bd0e-609ba3f924a4")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 146.05 77.47 90)
 			(effects
 				(font
@@ -2782,7 +2782,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2797,7 +2797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64e8da41-e976-4832-9a55-908e834c55ac")
-		(property "Reference" "C_INBUCK?"
+		(property "Reference" "C_INBUCK1"
 			(at 90.932 75.438 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "C_INBUCK?")
+					(reference "C_INBUCK1")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa566b8-4cbc-47d0-a920-c03fbe84bb27")
-		(property "Reference" "COUT?"
+		(property "Reference" "COUT2"
 			(at 212.09 87.6299 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "COUT?")
+					(reference "COUT2")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8a3385-70f6-46fc-abe4-df4c6ed645ca")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 214.63 86.36 0)
 			(effects
 				(font
@@ -2987,7 +2987,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83fcd067-a8ce-4eb9-8072-a90a31ddf25d")
-		(property "Reference" "D_TVS?"
+		(property "Reference" "D_TVS1"
 			(at 87.63 81.2799 90)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "D_TVS?")
+					(reference "D_TVS1")
 					(unit 1)
 				)
 			)
@@ -3072,7 +3072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a42326f9-1624-41cc-b50a-3ab2dc549c9f")
-		(property "Reference" "C_OUTBUCK?"
+		(property "Reference" "C_OUTBUCK1"
 			(at 147.574 92.202 0)
 			(effects
 				(font
@@ -3126,7 +3126,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "C_OUTBUCK?")
+					(reference "C_OUTBUCK1")
 					(unit 1)
 				)
 			)
@@ -3142,7 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae4478ed-da0c-4db8-8291-36218f7d14a5")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be773bb9-0797-4bf0-b73f-d369afa0f8f4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3286,7 +3286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c18d3cc7-bd90-4390-853e-920e4014fda9")
-		(property "Reference" "D_OUTBUCK?"
+		(property "Reference" "D_OUTBUCK1"
 			(at 135.382 92.456 90)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "D_OUTBUCK?")
+					(reference "D_OUTBUCK1")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea17eaf0-e5de-4d02-882d-9e32d8d3cc74")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
