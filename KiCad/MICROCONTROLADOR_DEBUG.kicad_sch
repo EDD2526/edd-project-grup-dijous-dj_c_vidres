@@ -3314,8 +3314,16 @@
 		(uuid "0592a5da-4438-4890-a9f0-5f15ca35f18e")
 	)
 	(no_connect
+		(at 210.82 63.5)
+		(uuid "19c3dfbe-9410-42df-91fb-67bfc1668e51")
+	)
+	(no_connect
 		(at 93.98 60.96)
 		(uuid "354c472c-02f1-4024-a6f6-a0f7d1646a37")
+	)
+	(no_connect
+		(at 210.82 60.96)
+		(uuid "3cbeb21d-4388-4775-a35a-9e446e5ee0d4")
 	)
 	(no_connect
 		(at 93.98 73.66)
@@ -3828,17 +3836,6 @@
 		)
 		(uuid "380043a9-8a8f-4540-9ab0-a3c8f19609c3")
 	)
-	(hierarchical_label "DOOR_LIMIT_CLOSE"
-		(shape input)
-		(at 210.82 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41c53daf-87da-4b65-91cc-9c888686f9a0")
-	)
 	(hierarchical_label "RFID_MOSI"
 		(shape output)
 		(at 93.98 96.52 180)
@@ -4014,17 +4011,6 @@
 			(justify left)
 		)
 		(uuid "df3928fb-dcb9-4c4d-9bcc-9eb0222ec4cd")
-	)
-	(hierarchical_label "DOOR_LIMIT_OPEN"
-		(shape input)
-		(at 210.82 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2d1fa57-7513-40ae-8c15-bb9f6d26608f")
 	)
 	(hierarchical_label "PGEC1"
 		(shape input)

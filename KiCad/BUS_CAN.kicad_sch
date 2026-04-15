@@ -2305,8 +2305,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
 			(at 125.73 55.88 0)
+=======
+		(property "Footprint" "Connector_Dsub:DSUB-15_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+			(at 181.61 90.17 0)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 			(effects
 				(font
 					(size 1.27 1.27)
