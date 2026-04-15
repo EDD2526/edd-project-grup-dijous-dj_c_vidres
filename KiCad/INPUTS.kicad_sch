@@ -1443,7 +1443,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bdfcc7f-220b-4fd6-89a0-c4a7bf264ecf")
+<<<<<<< HEAD
+		(property "Reference" "R_15"
+=======
 		(property "Reference" "R_Lock/Unlock1"
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 			(at 164.084 35.306 90)
 			(effects
 				(font
@@ -1495,7 +1499,11 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/85b10b44-f8b7-4b58-879f-bd15e6c8e976"
+<<<<<<< HEAD
+					(reference "R_15")
+=======
 					(reference "R_Lock/Unlock1")
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 					(unit 1)
 				)
 			)

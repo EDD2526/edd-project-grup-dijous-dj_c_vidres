@@ -1180,131 +1180,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -1478,6 +1353,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 158.75 83.82)
@@ -1546,7 +1522,17 @@
 		(uuid "a7f619f7-cca8-401b-9db8-8cdf4a5bb120")
 	)
 	(junction
+<<<<<<< HEAD
+		(at 198.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af6c1a4d-f7ff-4dca-9578-25b075229c59")
+	)
+	(junction
+		(at 195.58 97.79)
+=======
 		(at 181.61 97.79)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49267c9-7180-4b7f-b2ce-d027bca33680")
@@ -1568,12 +1554,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c054c74e-56ca-4da4-914b-7f546154263c")
-	)
-	(junction
-		(at 165.1 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c12add67-cbad-4088-bdc9-273982d9b62f")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -1633,7 +1613,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+			(xy 195.58 83.82) (xy 198.12 83.82)
+=======
 			(xy 181.61 83.82) (xy 185.42 83.82)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 		)
 		(stroke
 			(width 0)
@@ -1660,6 +1644,16 @@
 			(type default)
 		)
 		(uuid "1752198c-54fd-4625-90bf-2f233d457502")
+	)
+	(wire
+		(pts
+			(xy 198.12 83.82) (xy 199.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e67b58-ba4c-46d8-abb1-6461b7fa87cf")
 	)
 	(wire
 		(pts
@@ -1730,16 +1724,6 @@
 			(type default)
 		)
 		(uuid "56de5a42-2203-4b05-80f0-b7a90925d33c")
-	)
-	(wire
-		(pts
-			(xy 165.1 78.74) (xy 175.26 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3b743d-34cb-4106-ad28-f4fd83c0aa4d")
 	)
 	(wire
 		(pts
@@ -1973,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 78.74) (xy 165.1 78.74)
+			(xy 143.51 78.74) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2620,6 +2604,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5888f1dc-21dd-4730-a651-2d4b64f4f183")
+		(property "Reference" "#FLG03"
+			(at 198.12 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 198.628 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db5d4ff-6ddc-4139-88ba-cfef1daa5440")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 153.67 83.82 90)
 		(unit 1)
@@ -3246,17 +3295,46 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
+		(lib_id "Device:C")
+		(at 182.88 90.17 0)
+=======
 		(lib_id "power:+5V")
 		(at 165.1 78.74 0)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
+		(uuid "e6347626-9fe1-48d6-98ab-68bbf2b93534")
+		(property "Reference" "CIN1"
+			(at 186.69 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 183.8452 93.98 0)
+=======
 		(uuid "ea17eaf0-e5de-4d02-882d-9e32d8d3cc74")
 		(property "Reference" "#PWR0103"
 			(at 165.1 82.55 0)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,6 +3342,10 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
+		(property "Datasheet" "~"
+			(at 182.88 90.17 0)
+=======
 		(property "Value" "+5V"
 			(at 165.1 73.66 0)
 			(effects
@@ -3274,6 +3356,7 @@
 		)
 		(property "Footprint" ""
 			(at 165.1 78.74 0)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,6 +3364,10 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 90.17 0)
+=======
 		(property "Datasheet" ""
 			(at 165.1 78.74 0)
 			(effects
@@ -3292,6 +3379,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 165.1 78.74 0)
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,12 +3388,23 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
+			(uuid "79c23f27-8adc-4223-a0b5-cc27dcb9606e")
+		)
+		(pin "2"
+			(uuid "4db3bd74-e6df-42e7-a4bf-b4cba4118052")
+=======
 			(uuid "392ce9c2-fe09-4b43-82a7-0f5383770561")
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 		)
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+<<<<<<< HEAD
+					(reference "CIN1")
+=======
 					(reference "#PWR0103")
+>>>>>>> 3a3ad7ba2f48cbf30570b8b59d741e4301de6049
 					(unit 1)
 				)
 			)
