@@ -1772,6 +1772,12 @@
 		(uuid "6203cba0-64dd-47ac-b1e9-92ca41cce8e2")
 	)
 	(junction
+		(at 170.18 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6420439d-3183-4676-9add-3354f85a8afc")
+	)
+	(junction
 		(at 187.96 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1788,12 +1794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c4a118a-25a8-4f83-b0dc-a959d2c74ce8")
-	)
-	(junction
-		(at 160.02 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83ec9021-865a-4752-aa1c-ca94b823eb0a")
 	)
 	(junction
 		(at 199.39 104.14)
@@ -1981,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 166.37 85.09)
+			(xy 138.43 85.09) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2298,16 +2298,6 @@
 			(type default)
 		)
 		(uuid "d3b75e96-708b-434b-ae9a-40a1b8998584")
-	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 160.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65c9d4b-7ee1-4559-b899-827d2899dc6e")
 	)
 	(wire
 		(pts
@@ -2875,7 +2865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486d02b2-9b5c-4d8f-8e16-f1d0f680e8ab")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG04"
 			(at 63.5 86.995 0)
 			(effects
 				(font
@@ -2925,7 +2915,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#FLG07")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54dae2f2-6909-43fe-8f87-c96580bf34ce")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR031"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -2991,7 +2981,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR050")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3060,6 +3050,72 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63719c7e-e40e-4430-adbb-641a43487815")
+		(property "Reference" "#PWR049"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0264da-da7c-4606-aec2-aa5ff889381c")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be773bb9-0797-4bf0-b73f-d369afa0f8f4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 182.88 111.76 0)
 			(effects
 				(font
@@ -3614,7 +3670,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3684,72 +3740,6 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
 					(reference "D_OUTBUCK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 160.02 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea17eaf0-e5de-4d02-882d-9e32d8d3cc74")
-		(property "Reference" "#PWR037"
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "392ce9c2-fe09-4b43-82a7-0f5383770561")
-		)
-		(instances
-			(project "PROJECTE_EINES"
-				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)

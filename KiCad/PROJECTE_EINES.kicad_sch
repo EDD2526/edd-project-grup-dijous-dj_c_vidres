@@ -1265,6 +1265,12 @@
 		(uuid "c39de30a-660f-40f2-83f6-10b7fda7e53b")
 	)
 	(junction
+		(at 30.48 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bededb4-2e9a-4a01-9c6f-b8dec15e4e0d")
+	)
+	(junction
 		(at 22.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1292,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 24.13) (xy 40.64 24.13)
+			(xy 26.67 24.13) (xy 45.72 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1309,16 +1315,6 @@
 			(type default)
 		)
 		(uuid "651ede8b-cdcd-449c-90e3-e5b40a754a24")
-	)
-	(wire
-		(pts
-			(xy 40.64 26.67) (xy 40.64 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82092e50-f671-4aa2-b58e-364245eef2be")
 	)
 	(wire
 		(pts
@@ -1342,13 +1338,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 26.67) (xy 40.64 26.67)
+			(xy 26.67 21.59) (xy 30.48 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb3cbc45-d4a6-49ca-829c-ac08db2f20da")
+		(uuid "ad37f3d9-9c6b-4bfb-a127-88cafad234b5")
 	)
 	(wire
 		(pts
@@ -2164,7 +2160,7 @@
 	)
 	(global_label "MCLR"
 		(shape input)
-		(at 26.67 21.59 0)
+		(at 26.67 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2169,7 @@
 		)
 		(uuid "941dce29-45ef-40af-8a76-0334b9fabcc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.67 21.59 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2682,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 40.64 24.13 0)
+		(at 45.72 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2694,8 +2690,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "068b40a1-ccba-48b4-be4f-0b21c96a5111")
-		(property "Reference" "#PWR03"
-			(at 40.64 27.94 0)
+		(property "Reference" "#PWR04"
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2700,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 40.64 19.05 0)
+			(at 45.72 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 24.13 0)
+			(at 45.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 24.13 0)
+			(at 45.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 24.13 0)
+			(at 45.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2740,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598cefd6-7e7a-44c9-ae06-6a1cc9cf96f1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 43.18 101.6 0)
 			(effects
 				(font
@@ -2944,7 +2940,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3087,6 +3083,73 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
 					(reference "J_DEBUG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b604254a-9404-4a84-8d62-0333ff8f4b35")
+		(property "Reference" "#FLG07"
+			(at 32.385 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 30.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c846869-5b48-4c9f-926e-cb61bf06e188")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -3238,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d014c479-c706-4ae6-8d41-a9d27e1d43f0")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR03"
 			(at 34.29 48.26 0)
 			(effects
 				(font
@@ -3288,7 +3351,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#PWR051")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 27.94 0)
+		(at 30.48 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3437,8 +3500,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9f63921-d9b2-4f13-9fd5-fe051a05833d")
-		(property "Reference" "#PWR04"
-			(at 40.64 34.29 0)
+		(property "Reference" "#PWR05"
+			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,15 +3510,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 33.02 0)
+			(at 30.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 27.94 0)
+			(at 30.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 27.94 0)
+			(at 30.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 27.94 0)
+			(at 30.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3551,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

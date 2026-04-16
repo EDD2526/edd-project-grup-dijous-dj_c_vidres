@@ -2372,7 +2372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1743c3e1-629f-4530-846f-916b33d88613")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 34.925 55.88 0)
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a15b7ea-4861-41bd-abcb-6de7e0e2c731")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2504,7 +2504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1ad838-69ab-4e41-9012-8a5278557f71")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 134.62 85.09 0)
 			(effects
 				(font
@@ -2554,7 +2554,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22aff1f3-6b07-4238-9c9f-dbbe1fb8092b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a849c1f-e65b-4933-9242-5db00e05047e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 182.88 68.58 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3501,7 +3501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21e7b60-d865-4800-b4a2-6c66e6e1879e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 157.48 48.26 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3567,7 +3567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9a393a6-7bd8-48d6-aa9b-e407b942766f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -3617,7 +3617,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb8f0b14-ae6b-4a8d-a0d9-9f3c3b130c73")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 91.44 64.77 0)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/0182dfdd-06e0-4cd2-9407-e3ad60659aa3"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
