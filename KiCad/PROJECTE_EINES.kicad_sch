@@ -1264,6 +1264,16 @@
 		)
 		(uuid "c39de30a-660f-40f2-83f6-10b7fda7e53b")
 	)
+	(text "Test points\n"
+		(exclude_from_sim no)
+		(at 59.309 171.958 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "d7f4a505-12d0-4ca2-8976-975ee35b5107")
+	)
 	(junction
 		(at 30.48 21.59)
 		(diameter 0)
@@ -1700,7 +1710,7 @@
 	)
 	(global_label "CAN_TX"
 		(shape output)
-		(at 82.55 121.92 180)
+		(at 82.55 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,7 +1719,7 @@
 		)
 		(uuid "3ccb34d2-98eb-4376-8b1c-13e913e74b5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 121.92 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,6 +2689,270 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "DOOR_DIAGA"
+		(shape input)
+		(at 38.735 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01a99104-a4b9-4649-84ce-a2813c72ff9a")
+	)
+	(hierarchical_label "WIN_BTN_UP"
+		(shape input)
+		(at 80.01 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fe485f0-c035-4637-b320-9b5955aab474")
+	)
+	(hierarchical_label "WIN_PWM"
+		(shape input)
+		(at 61.595 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19c8f67d-0d9a-4d70-9a51-0795f2477dea")
+	)
+	(hierarchical_label "PGED1"
+		(shape input)
+		(at 80.01 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22b05e6d-c165-4cd7-b4c4-574adf53f16f")
+	)
+	(hierarchical_label "WIN_DIAGB"
+		(shape input)
+		(at 53.975 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2609f01e-cc54-4618-b90a-862ed0d415ab")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 80.01 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "486799b5-030d-4b2d-a82b-6baf087fb65b")
+	)
+	(hierarchical_label "WIN_BTN_DOWN"
+		(shape input)
+		(at 80.01 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e122b40-7f78-4702-8322-d0aa0c0c3162")
+	)
+	(hierarchical_label "CANH"
+		(shape input)
+		(at 38.735 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "504aa28a-320a-47fe-9348-bdfee53070b9")
+	)
+	(hierarchical_label "PGEC1"
+		(shape input)
+		(at 80.01 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c44c5e8-7f22-477f-a850-6822a0fa1642")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 38.735 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7552c9d3-ae03-4a18-8745-d161dfe18518")
+	)
+	(hierarchical_label "CANL"
+		(shape input)
+		(at 38.735 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7daad1d3-5116-4b42-b4db-e6d3010d3dbc")
+	)
+	(hierarchical_label "DOOR_PWM"
+		(shape input)
+		(at 38.735 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f2fa9f3-c684-425f-8aca-795ced7a418b")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 38.735 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80fcab92-c853-4005-aa82-33b87bf08eb7")
+	)
+	(hierarchical_label "DOOR_DIAGB"
+		(shape input)
+		(at 38.735 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "861dbb92-b5fc-4079-bd54-24d2cfba0d3e")
+	)
+	(hierarchical_label "WIN_CURRENT_ADC"
+		(shape input)
+		(at 80.01 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88ba2716-fc90-4f5d-8606-bae81c233db7")
+	)
+	(hierarchical_label "WIN_INB"
+		(shape input)
+		(at 59.055 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94729b11-2c8e-40f4-831c-d157321421e4")
+	)
+	(hierarchical_label "VBAT_PROT"
+		(shape input)
+		(at 80.01 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bafacc62-d244-44d3-94e7-1c5c2a900b02")
+	)
+	(hierarchical_label "MCLR"
+		(shape input)
+		(at 80.01 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0f136ca-6a60-4ecc-bc19-7feaf95248fb")
+	)
+	(hierarchical_label "WIN_INA"
+		(shape input)
+		(at 56.515 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c121ae73-51c0-4da0-80e4-b66c02778c6b")
+	)
+	(hierarchical_label "DOOR_INA"
+		(shape input)
+		(at 38.735 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2a011df-14cd-4e4a-9f72-af5b5f320c8e")
+	)
+	(hierarchical_label "DOOR_INB"
+		(shape input)
+		(at 38.735 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c348395f-30a6-413e-b0f6-2b7b901a8766")
+	)
+	(hierarchical_label "DOOR_LOCK/UNLOCK"
+		(shape input)
+		(at 38.735 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c35054b4-b348-45dc-9a30-966bd02703e3")
+	)
+	(hierarchical_label "WIN_DIAGA"
+		(shape input)
+		(at 80.01 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eeee3087-bcf9-487a-83e1-9a8c0c3f0db3")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 80.01 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8796015-ddbe-449c-901c-00700fa11730")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4178,7 +4452,7 @@
 			)
 		)
 		(pin "CAN_TX" output
-			(at 82.55 121.92 180)
+			(at 82.55 124.46 180)
 			(uuid "83d65a2b-2cfc-413a-adcd-e06948bdf6d6")
 			(effects
 				(font
@@ -4333,6 +4607,288 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.735 158.75)
+		(size 41.275 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b214ec89-0f36-4afb-99eb-070b321d6674")
+		(property "Sheetname" "Test points"
+			(at 38.735 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test_points_sch.kicad_sch"
+			(at 38.735 185.3696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" input
+			(at 38.735 160.02 180)
+			(uuid "45d1b401-3d10-4b46-b4ab-7abc574fea5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" input
+			(at 38.735 162.56 180)
+			(uuid "da8395ed-10fa-4cbf-8fa7-2fb7cb568614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 38.735 165.1 180)
+			(uuid "201408d0-1d1c-4800-a3b9-9bb2f8d55d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 38.735 167.64 180)
+			(uuid "d0ed2e90-95d0-4b0a-a687-89bb2230f884")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_DIAGA" input
+			(at 38.735 170.18 180)
+			(uuid "8946f9e1-2a85-4fb9-9c08-a3f1d1f4cb7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_DIAGB" input
+			(at 38.735 172.72 180)
+			(uuid "e9396264-24f7-4afc-a127-4f029bf912f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_INA" input
+			(at 38.735 175.26 180)
+			(uuid "a6baaa3f-97fb-4c4d-b108-45f6bbbcd5a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_INB" input
+			(at 38.735 177.8 180)
+			(uuid "bdf4b5b8-588c-48d5-8cd9-8783bb46c67d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_LOCK{slash}UNLOCK" input
+			(at 38.735 180.34 180)
+			(uuid "192b4e34-ec08-42ca-8463-4ced68fc2a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOOR_PWM" input
+			(at 38.735 182.88 180)
+			(uuid "880d3f33-3c35-475e-b4f1-a0259ad2b901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCLR" input
+			(at 80.01 161.29 0)
+			(uuid "b158ebc3-6654-4775-afbc-47d1e7f59405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGEC1" input
+			(at 80.01 163.83 0)
+			(uuid "04d5c3af-61c6-4a98-b128-e253be938c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGED1" input
+			(at 80.01 166.37 0)
+			(uuid "cf956b49-e9ce-42fc-80db-b2d499087c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 80.01 167.64 0)
+			(uuid "dd8cc2bd-6e2e-4b7d-a26b-fdee3de1976c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 80.01 170.18 0)
+			(uuid "d2db7eef-aeaa-4153-a93e-e330c1353023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_PROT" input
+			(at 80.01 172.72 0)
+			(uuid "08e889f6-f358-4692-95eb-46683f089fda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_BTN_DOWN" input
+			(at 80.01 175.26 0)
+			(uuid "5687bce5-6c0c-4ffd-bba4-ef968dc8516f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_BTN_UP" input
+			(at 80.01 177.8 0)
+			(uuid "6d5521f5-9a42-410c-b74c-7e5ab256351f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_CURRENT_ADC" input
+			(at 80.01 180.34 0)
+			(uuid "d60e0a7c-0cb4-422e-b21c-2ec22affa01b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGA" input
+			(at 80.01 182.88 0)
+			(uuid "f2f9e58f-22d4-4cca-8655-4c4d6fea5ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_DIAGB" input
+			(at 53.975 158.75 90)
+			(uuid "81f110dd-cc21-462d-922e-c329da4013b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INA" input
+			(at 56.515 158.75 90)
+			(uuid "c9848197-3c1d-4756-85cf-9c26c887bdda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_INB" input
+			(at 59.055 158.75 90)
+			(uuid "13218719-f110-4895-834e-65244824ab5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIN_PWM" input
+			(at 61.595 158.75 90)
+			(uuid "ce3aed96-edc2-41c7-86b7-03f99ec420f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219"
+					(page "8")
 				)
 			)
 		)
