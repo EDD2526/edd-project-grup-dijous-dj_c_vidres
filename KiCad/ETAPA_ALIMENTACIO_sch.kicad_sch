@@ -1812,6 +1812,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Disminueix el voltatge de 12V a 5V"
+		(exclude_from_sim no)
+		(at 113.538 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b86b903-0611-402f-93b3-5c17a2bbc7a1")
+	)
+	(text "Redueix el voltatge de 5V a 3.3V"
+		(exclude_from_sim no)
+		(at 192.024 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df6bd97d-c452-445d-8c54-663d652c4985")
+	)
 	(junction
 		(at 217.17 90.17)
 		(diameter 0)
