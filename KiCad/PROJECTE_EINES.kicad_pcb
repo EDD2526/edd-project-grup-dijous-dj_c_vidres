@@ -914,9 +914,9 @@
 			(layer "F.Fab")
 			(uuid "dbaf5146-941b-4c46-912f-f0dc4a06651f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
+		(fp_text user "D_TVS"
+			(at -4.94 0.125 90)
+			(layer "F.SilkS")
 			(uuid "fa753b12-f990-498e-95c0-aa7b2b861d33")
 			(effects
 				(font
@@ -8116,9 +8116,9 @@
 			(layer "F.Fab")
 			(uuid "a456c8ae-4bc0-4676-a687-4d54df659df9")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
+		(fp_text user "C_INBUCK1"
+			(at 0 3.525 0)
+			(layer "F.SilkS")
 			(uuid "55dece7e-1100-421c-bf9f-6fcb24f08696")
 			(effects
 				(font
@@ -10034,9 +10034,9 @@
 			(layer "F.Fab")
 			(uuid "359d204b-2cb8-48cd-a77d-03b8ee181e66")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 2.25 2.65 90)
-			(layer "F.Fab")
+		(fp_text user "J_PWR1"
+			(at -0.025 6.1725 90)
+			(layer "F.SilkS")
 			(uuid "956a4fcc-3449-4c46-a480-ecad1cf14e51")
 			(effects
 				(font
@@ -11418,7 +11418,7 @@
 			(uuid "c6a21f2a-f83c-44f7-b473-c701345236de")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 5.725 0.14 0)
 			(layer "F.Fab")
 			(uuid "e2740eb2-76ea-4e5b-83a1-7b8a84d8077c")
 			(effects
@@ -12898,9 +12898,9 @@
 			(layer "F.Fab")
 			(uuid "eb8f4e22-ef83-4e22-bd34-3c714ebaf489")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
+		(fp_text user "C_INBUCK2"
+			(at -1.26 -5.325 0)
+			(layer "F.SilkS")
 			(uuid "537b13aa-7507-4fb8-861d-d84975b607e6")
 			(effects
 				(font
@@ -17015,8 +17015,8 @@
 			(layer "F.Fab")
 			(uuid "775d412c-b19a-4f22-b6bc-2315c29ac615")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+		(fp_text user "D_PROT"
+			(at 0.075 -2.54 90)
 			(layer "F.Fab")
 			(uuid "a92ff31c-6fab-4585-a532-9f7d62780fa6")
 			(effects
@@ -17163,9 +17163,9 @@
 			(layer "F.Fab")
 			(uuid "fc03a8f9-827d-4e28-99de-acceffa64c31")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
+		(fp_text user "D_PROT"
+			(at -4.875 0.14 180)
+			(layer "F.SilkS")
 			(uuid "3b93e23f-7641-4433-b360-314c444909d7")
 			(effects
 				(font
