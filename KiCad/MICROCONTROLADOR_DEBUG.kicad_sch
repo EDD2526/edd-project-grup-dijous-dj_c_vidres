@@ -3423,12 +3423,12 @@
 		(uuid "ffed4a5a-30db-449d-9a8b-7773f037656c")
 	)
 	(no_connect
-		(at 104.14 121.92)
-		(uuid "62a30846-c408-4a00-bea1-af196940f524")
+		(at 220.98 76.2)
+		(uuid "081050be-8196-451a-a344-4155a1a19614")
 	)
 	(no_connect
-		(at 104.14 127)
-		(uuid "7e97d584-118d-4b36-a998-69294b68c500")
+		(at 104.14 121.92)
+		(uuid "62a30846-c408-4a00-bea1-af196940f524")
 	)
 	(no_connect
 		(at 104.14 88.9)
@@ -3443,8 +3443,12 @@
 		(uuid "d82c462e-3ff0-4363-a783-59031854df97")
 	)
 	(no_connect
-		(at 104.14 124.46)
-		(uuid "f500b151-7651-48d5-857d-cc2f47644adc")
+		(at 104.14 73.66)
+		(uuid "d9cd2e44-7b0f-4b26-a432-bfffcd6a5699")
+	)
+	(no_connect
+		(at 220.98 73.66)
+		(uuid "fb8b4680-ffa1-4e09-9d44-850714d87398")
 	)
 	(wire
 		(pts
@@ -3830,7 +3834,7 @@
 	)
 	(global_label "OSC_-"
 		(shape input)
-		(at 104.14 76.2 180)
+		(at 104.14 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3840,7 +3844,7 @@
 		)
 		(uuid "4399471b-e83d-497e-9db6-b738f514a4b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8048 76.2 0)
+			(at 94.8048 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3878,7 @@
 	)
 	(global_label "OSC_+"
 		(shape input)
-		(at 104.14 78.74 180)
+		(at 104.14 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3884,7 +3888,7 @@
 		)
 		(uuid "daa3bc7e-be0e-4d17-b0ac-5aaf829c3f1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8048 78.74 0)
+			(at 94.8048 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,12 +3955,12 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 220.98 73.66 0)
+		(at 104.14 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "40bc0c03-f897-496e-94cf-2d57051ca17d")
 	)
@@ -4061,12 +4065,12 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 220.98 76.2 0)
+		(at 104.14 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8e40b03a-4f61-4e4d-a9f8-487cf8612e5a")
 	)
