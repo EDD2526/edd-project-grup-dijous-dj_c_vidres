@@ -5,6 +5,113 @@
 	(uuid "c088f88e-0d6c-4e4b-91cb-bf72dc5faf26")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1706,6 +1813,12 @@
 		)
 	)
 	(junction
+		(at 217.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09779509-dcfd-493a-8dd4-2f1a18913be5")
+	)
+	(junction
 		(at 97.79 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1716,6 +1829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14c0f573-dfcc-4339-bc18-263a1a99db4c")
+	)
+	(junction
+		(at 87.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac9585c-4a13-4f45-b4c1-bebdb290b4c0")
 	)
 	(junction
 		(at 106.68 85.09)
@@ -1838,6 +1957,12 @@
 		(uuid "c1183927-6608-435f-97ff-7a4374c9b6ae")
 	)
 	(junction
+		(at 149.86 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcecb8f3-68b6-45c4-81d1-cf5e29d982df")
+	)
+	(junction
 		(at 166.37 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1888,6 +2013,16 @@
 			(type default)
 		)
 		(uuid "0ed2789f-6899-4088-81a9-e406c63e6e57")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4e4618-6a0b-4159-95db-943c7d1909ad")
 	)
 	(wire
 		(pts
@@ -1981,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 85.09) (xy 166.37 85.09)
+			(xy 138.43 85.09) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 87.63 85.09)
+			(xy 87.63 74.93) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2301,6 +2436,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 78.74) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bb6469-974e-4b58-a5e0-7206457eba81")
+	)
+	(wire
+		(pts
 			(xy 210.82 104.14) (xy 199.39 104.14)
 		)
 		(stroke
@@ -2361,7 +2506,7 @@
 	)
 	(hierarchical_label "VBAT_PROT"
 		(shape output)
-		(at 87.63 78.74 90)
+		(at 87.63 74.93 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,6 +2651,73 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
 					(reference "COUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e4a0c24-d6a0-4e1f-ad56-42f55b2fea05")
+		(property "Reference" "TP_3V3"
+			(at 222.25 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 222.25 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12530dc1-0b34-405d-a141-3f4d2d0b3225")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+					(reference "TP_3V3")
 					(unit 1)
 				)
 			)
@@ -3393,6 +3605,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f449ab4-a67d-4fb8-911a-d2da9500b87d")
+		(property "Reference" "TP_5V1"
+			(at 152.4 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f10b672c-7b32-4946-96d8-30040ef9e03e")
+		)
+		(instances
+			(project "PROJECTE_EINES"
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+					(reference "TP_5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 87.63 90.17 90)
 		(unit 1)
@@ -3740,6 +4019,73 @@
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
 					(reference "D_OUTBUCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d332adff-c92d-4b07-919b-c40426764a15")
+		(property "Reference" "TP_VBAT1"
+			(at 92.71 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9badcf9e-f569-4d90-aedf-52dba91da84c")
+		)
+		(instances
+			(project ""
+				(path "/347831db-5db9-4aff-ad32-e56fd770e219/b8d025f8-884e-44af-b29b-4fb2140b95b4"
+					(reference "TP_VBAT1")
 					(unit 1)
 				)
 			)
