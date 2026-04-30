@@ -4666,7 +4666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f9f7152-a192-4931-8f02-840c48930b0b")
-		(property "Reference" "C_AVDD1"
+		(property "Reference" "C4"
 			(at 75.438 59.69 0)
 			(effects
 				(font
@@ -4720,7 +4720,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_AVDD1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4802,7 +4802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c1d7ec8-1395-4f92-92a7-69f9c8f3f79a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 60.96 44.45 0)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4935,7 +4935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380313d2-147b-4e90-bde9-7513a2c69c95")
-		(property "Reference" "C_OSC2"
+		(property "Reference" "C2"
 			(at 52.07 99.0599 0)
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.2252 104.14 0)
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_OSC2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5484,7 +5484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49269b58-9c41-4a29-aa0c-d186642fd01e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -5534,7 +5534,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5549,7 +5549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50b029b2-cafd-4eae-99f7-9912f2bca13c")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 101.6 61.595 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 		(instances
 			(project ""
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631340b2-225d-48c3-a00c-9023ed38dae2")
-		(property "Reference" "C_OSC1"
+		(property "Reference" "C1"
 			(at 35.56 99.0599 0)
 			(effects
 				(font
@@ -5700,7 +5700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 104.14 0)
 			(effects
 				(font
@@ -5736,7 +5736,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_OSC1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6017,7 +6017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab3f32cb-6d94-40a9-ab86-97a4ba4cad08")
-		(property "Reference" "C_BULK1"
+		(property "Reference" "C5"
 			(at 84.328 41.91 0)
 			(effects
 				(font
@@ -6071,7 +6071,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_BULK1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2889621-3830-4928-9e78-c1c1c79f50db")
-		(property "Reference" "C_VCAP1"
+		(property "Reference" "C6"
 			(at 87.122 60.198 90)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_VCAP1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db52181b-546e-4e08-9afb-277eefae57f9")
-		(property "Reference" "C_VDD2"
+		(property "Reference" "C3"
 			(at 74.168 41.91 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 		(instances
 			(project "PROJECTE_EINES"
 				(path "/347831db-5db9-4aff-ad32-e56fd770e219/1f039355-d395-4709-b940-eff82ebe0f62"
-					(reference "C_VDD2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
