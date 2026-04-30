@@ -17,7 +17,7 @@ PCB per al control d’un sistema de porta i alçavidres d’un vehicle. La plac
 
 > **Nota:** substituir el nom del fitxer si la imatge té un altre nom o ruta dins del repositori.
 
-![Diagrama de blocs](docs/Diagrama_blocs_v4.png)
+![Diagrama de blocs](docs/Diagrama_blocs_versio_final.jpg)
 
 ---
 
@@ -119,20 +119,35 @@ La comunicació amb altres sistemes del vehicle es realitza mitjançant un trans
 
 ## Components principals
 
-| Descripció | Referència / Model | Package | Datasheet | Proveïdor | Preu aprox. | Unitats |
-| --- | --- | --- | --- | --- | --- | --- |
-| Microcontrolador | PIC24HJ128GP504-I/PT | TQFP-44 | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/70293G.pdf) | Microchip | 4,00 € aprox. | 1 |
-| Regulador lineal 3.3 V | LM1117DT-3.3 | SMD | [Datasheet](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | Mouser | 1,47 € | 1 |
-| Convertidor DC-DC 5 V | LM2596S-5.0 | SMD | [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | Mouser | 5,99 € | 1 |
-| Driver pont H | VNH5019A-E | MultiPowerSO-30 | [Datasheet](https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf) | Mouser | 7,93 € | 2 |
-| Lector RFID | RC522 | Mòdul extern / connector | Datasheet online | ElectroComponents | 2,20 € | 1 |
-| Transceptor CAN | SN65HVD230 | SMD | [Datasheet](https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) | Mouser | 1,87 € | 1 |
-| Sensor final de carrera | SS-5GLD | Connector / sensor extern | Datasheet Omron | Mouser | 2,15 € | 1 |
-| Cristall | 8 MHz | SMD / THT segons footprint | Datasheet fabricant | — | — | 1 |
-| Fusible | Fusible entrada 12 V | SMD / THT segons footprint | Datasheet fabricant | — | — | 1 |
-| Díode TVS | Protecció entrada | SMD | Datasheet fabricant | — | — | 1 |
+| # | Component | Valor | Quantitat | Footprint | Preu x1 (€) |
+|---|---|---|---|---|---|
+| 1 | Capacitor | 100nF | 12 | Capacitor_SMD:C_0805_2012Metric | 0,09 |
+| 2 | Capacitor | 10uF | 6 | Capacitor_SMD:C_0805_2012Metric | 0,79 |
+| 3 | Capacitor | 220uF | 1 | Capacitor_SMD:CP_Elec_8x10 | 0,46 |
+| 4 | Capacitor | 22pF | 2 | Capacitor_SMD:C_0805_2012Metric | 0,67 |
+| 5 | Capacitor | 100uF | 1 | Capacitor_SMD:CP_Elec_8x10 | 0,69 |
+| 6 | Diode Schottky | - | 2 | Diode_SMD:D_SMB_Modified | 0,22 |
+| 7 | Diode TVS | - | 1 | Diode_SMD:D_SMB_Modified | 0,66 |
+| 8 | Fuse | - | 1 | Fuse:Fuse_1812_4532Metric | 0,45 |
+| 9 | Connector | - | 2 | Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.9 | 3,89 |
+| 10 | Connector | - | 1 | Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical | 0,80 |
+| 11 | Connector | - | 1 | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical | 0,24 |
+| 12 | Connector | - | 4 | TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm | 0,09 |
+| 13 | Inductor | 33uH | 1 | Inductor_SMD:L_10.4x10.4_H4.8 | 1,38 |
+| 14 | Resistor | 120Ω | 1 | Resistor_SMD:R_0805_2012Metric | 1,08 |
+| 15 | Resistor | 10kΩ | 10 | Resistor_SMD:R_0805_2012Metric | 1,08 |
+| 16 | Resistor | 1kΩ | 1 | Resistor_SMD:R_0805_2012Metric | 1,08 |
+| 17 | Switch | - | 1 | Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN | 0,86 |
+| 18 | Switch | - | 1 | Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight | 0,74 |
+| 19 | Switch | - | 1 | Button_Switch_SMD:SW_SPST_TL3342 | 0,50 |
+| 20 | Micro | - | 1 | PIC24HJ128GP504-I_PT:QFP80P1200X1200X120-44N | 7,23 |
+| 21 | Transceiver | - | 1 | PACKAGE_SO:SOIC-8_3.9x4.9mm_P1.27mm | 1,87 |
+| 22 | Motor Drivers | - | 2 | Package_SO:ST_MultiPowerSO-30 | 7,93 |
+| 23 | DC-DC | - | 1 | Package_TO_SOT_SMD:TO-263-5_TabPin3 | 5,99 |
+| 24 | DC-DC | - | 1 | Package_TO_SOT_SMD:TO-252-3_TabPin2 | 1,12 |
+| 25 | Crystal | 8MHz | 1 | Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm | 0,53 |
 
----
+
 
 ## Disseny PCB
 
