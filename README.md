@@ -15,7 +15,7 @@ PCB per al control d’un sistema de porta i alçavidres d’un vehicle. La plac
 
 ## Diagrama de blocs
 
-> **Nota:** substituir el nom del fitxer si la imatge té un altre nom o ruta dins del repositori.
+
 
 ![Diagrama de blocs](docs/Diagrama_blocs_versio_final.jpg)
 
@@ -31,29 +31,29 @@ La placa s’alimenta a partir d’una entrada de 12 V del vehicle. Aquesta entr
 
 El sistema està controlat per un microcontrolador **PIC24HJ128GP504-I/PT** alimentat a 3.3 V. Aquest dispositiu gestiona les entrades de botons i sensors, genera les ordres de control dels drivers de motor, llegeix el senyal analògic de corrent, comunica amb el lector RFID i permet la comunicació amb altres sistemes mitjançant CAN.
 
-La placa inclou connector de programació/debug ICSP amb les línies `MCLR`, `PGEC` i `PGED`.
+La placa inclou connector de programació/debug ICSP amb les línies MCLR, PGEC i PGED.
 
 ### Drivers de motor
 
 S’utilitzen dos drivers **VNH5019A-E** en configuració de pont H:
 
-- un driver per al motor  de l’alçavidres;
-- un driver per al motor actuador de la porta.
+- Un driver per al motor  de l’alçavidres;
+- Un driver per al motor actuador de la porta.
 
-Cada driver permet controlar el motor en ambdós sentits mitjançant senyals digitals `INA`, `INB` i `PWM`. També proporciona senyals de diagnòstic que permeten detectar possibles errors de funcionament.
+Cada driver permet controlar el motor en ambdós sentits mitjançant senyals digitals INA, INB i PWM.
 
 ### Mesura de corrent i antiatrapament
 
-La mesura de corrent es realitza mitjançant la sortida de current sense del driver VNH5019A-E. Aquest senyal s’envia a una entrada ADC del microcontrolador per detectar situacions de sobrecorrent. Aquesta informació permet implementar una funció de seguretat tipus antiatrapament en el motor de l’alçavidres.
+La mesura de corrent es realitza mitjançant la sortida de current sense del driver VNH5019A-E. Aquest senyal s’envia a una entrada ADC del microcontrolador per detectar situacions de sobrecorrent. Aquesta informació permet implementar una funció  tipus antiatrapament en el motor de l’alçavidres.
 
 ### Inputs d’usuari i sensors
 
 La placa incorpora entrades per a:
 
-- botons de pujada i baixada de l’alçavidres;
-- control de bloqueig/desbloqueig de porta;
-- sensor de final de carrera;
-- reset manual del sistema;
+- Botons de pujada i baixada de l’alçavidres
+- Control de bloqueig/desbloqueig de porta
+- Sensor de final de carrera
+
 
 Les entrades digitals es connecten al microcontrolador mitjançant resistències de pull-up/pull-down segons la funcionalitat requerida.
 
@@ -63,7 +63,7 @@ El sistema inclou connexió per a un lector RFID RC522. Aquest mòdul permet ide
 
 ### Comunicació CAN
 
-La comunicació amb altres sistemes del vehicle es realitza mitjançant un transceptor **SN65HVD230**. El bus CAN disposa de les línies `CANH` i `CANL`, amb resistència de terminació de 120 Ω. També s’han afegit punts de test per facilitar la verificació del bus.
+La comunicació amb altres sistemes del vehicle es realitza mitjançant un transceptor **SN65HVD230**. El bus CAN disposa de les línies CANH i CANL.
 
 ---
 
@@ -94,8 +94,6 @@ La comunicació amb altres sistemes del vehicle es realitza mitjançant un trans
 - Motor alçavidres:
   - Alimentació: 12 V
   - Corrent màxim estimat: fins a 3 A
-  - Control bidireccional mitjançant pont H
-  - Control PWM
 
 - Motor actuador de porta:
   - Alimentació: 12 V
@@ -159,26 +157,16 @@ La PCB s’ha dissenyat a **dues capes**. S’ha intentat separar funcionalment 
 - Microcontrolador situat a la zona central.
 - Comunicacions CAN i connectors principals situats a la dreta.
 - Inputs i botons situats a la zona inferior/superior.
-- Pla de `VBAT_PROT` per alimentar els drivers de motor.
-- Pla de `+3.3V` per alimentar la part digital.
-- Separació entre `GND` i `GNDPWR`, unides en un punt controlat.
+- Pla de VBAT_PROT per alimentar els drivers de motor.
+- Pla de +3.3V per alimentar la part digital.
+- Separació entre GND i GNDPWR
 - Pistes de potència més amples que les pistes de senyal.
-- Ús de vies de major diàmetre o múltiples vies en zones de retorn de potència quan l’espai ho permet.
-- Test points accessibles per a alimentació, debug, CAN, PWM, diagnòstic i corrent.
+- Test points  per a alimentació, debug, CAN, PWM, diagnòstic i corrent.
 
-### Zona del cristall
-
-La zona del cristall s’ha dissenyat seguint les recomanacions del fabricant del microcontrolador:
-
-- cristall situat a prop dels pins `OSC1` i `OSC2`;
-- pistes `OSC+` i `OSC-` curtes;
-- condensadors de càrrega pròxims al cristall;
-- zona de GND al voltant del circuit oscil·lador;
-- absència de pistes de senyal o potència dins la zona protegida del cristall.
 
 ### Bus CAN
 
-El transceptor CAN s’ha col·locat pròxim al connector corresponent. Les línies `CANH` i `CANL` s’han mantingut curtes i amb una disposició simètrica. També s’ha incorporat una resistència de terminació de 120 Ω i punts de test per facilitar la verificació del bus.
+El transceptor CAN s’ha col·locat pròxim al connector corresponent. Les línies `CANH` i `CANL` s’han mantingut curtes i amb una disposició simètrica.
 
 ---
 
@@ -186,20 +174,20 @@ El transceptor CAN s’ha col·locat pròxim al connector corresponent. Les lín
 
 S’han afegit test points per facilitar la posada en marxa i la depuració de la placa. Els punts principals són:
 
-- `TP_VBAT`: alimentació protegida de 12 V
-- `TP_5V`: sortida del convertidor DC-DC
-- `TP_3V3`: alimentació lògica
-- `TP_GND`: massa lògica
-- `TP_GNDPWR`: massa de potència
-- `TP_MCLR`: reset/programació
-- `TP_PGEC`: línia de clock ICSP
-- `TP_PGED`: línia de dades ICSP
-- `TP_CANH`: línia CANH
-- `TP_CANL`: línia CANL
-- `TP_CURRENT`: lectura de corrent
-- `TP_PWM`: control PWM
-- `TP_WDIAG`: diagnòstic del driver de finestra
-- `TP_DDIAG`: diagnòstic del driver de porta
+- TP_VBAT: alimentació protegida de 12 V
+- TP_5V: sortida del convertidor DC-DC
+- TP_3V3: alimentació lògica
+- TP_GND: massa lògica
+- TP_GNDPWR: massa de potència
+- TP_MCLR: reset/programació
+- TP_PGEC: línia de clock ICSP
+- TP_PGED: línia de dades ICSP
+- TP_CANH: línia CANH
+- TP_CANL: línia CANL
+- TP_CURRENT: lectura de corrent
+- TP_PWM: control PWM
+- TP_WDIAG: diagnòstic del driver de finestra
+- TP_DDIAG: diagnòstic del driver de porta
 
 Aquests punts permeten verificar alimentació, comunicació, programació, control dels motors i diagnòstic sense modificar la placa.
 
@@ -209,7 +197,7 @@ Aquests punts permeten verificar alimentació, comunicació, programació, contr
 
 ### Eines utilitzades
 
-- KiCad 9.0 o superior
+- KiCad 9.0
 - LTspice per a simulacions
 - MPLAB X IDE per al desenvolupament del firmware
 
@@ -229,7 +217,7 @@ Aquests punts permeten verificar alimentació, comunicació, programació, contr
 - Control de pujada i baixada del vidre
 - Control d’actuació de la porta
 - Control de velocitat mitjançant PWM
-- Control de sentit mitjançant `INA` i `INB`
+- Control de sentit mitjançant INA i INB
 
 #### Seguretat
 
@@ -246,8 +234,8 @@ Aquests punts permeten verificar alimentació, comunicació, programació, contr
 #### Debug
 
 - Programació mitjançant ICSP
-- Punts de test per a mesures elèctriques
-- Verificació de senyals crítiques
+- Test points per a mesures elèctriques
+
 
 ---
 
@@ -257,18 +245,13 @@ Abans de la fabricació/entrega s’han revisat els punts següents:
 
 - ERC del circuit esquemàtic:
   - 0 errors
-  - 6 avisos revisats
+  - 6 avisos 
 - DRC de la PCB:
   - 0 errors
   - 0 avisos
-- Connexió correcta dels plans `GND`, `GNDPWR`, `VBAT_PROT` i `+3.3V`.
-- Connexió dels pins d’alimentació del microcontrolador.
-- Desacoblament dels pins `VDD`, `AVDD` i `VCAP`.
 - Separació entre zona de potència i zona lògica.
-- Rutes de potència curtes i amples per als motors.
-- Zona del cristall segons recomanacions del fabricant.
 - Bus CAN curt i simètric.
 - Serigrafia completa i llegible.
-- Punts de test accessibles.
+- Test points accessibles.
 
 ---
