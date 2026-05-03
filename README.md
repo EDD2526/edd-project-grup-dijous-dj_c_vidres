@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30197).
 # Projecte DJ_C_Vidres (Portes)
 
 > **Autors: Gurpinder Singh Kaur, Adria Pelegri Sabate**  
-> **Versió: 4**
+> **Versió: 5**
 
 ---
 
@@ -199,7 +199,6 @@ Aquests punts permeten verificar alimentació, comunicació, programació, contr
 
 - KiCad 9.0
 - LTspice per a simulacions
-- MPLAB X IDE per al desenvolupament del firmware
 
 ### Configuració prevista del microcontrolador
 
